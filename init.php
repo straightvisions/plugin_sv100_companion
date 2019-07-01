@@ -7,7 +7,7 @@
 		const version = 1400;
 		const version_core_match = 4001;
 		
-		public function __construct() {
+		public function load(){
 			if(!$this->setup( __NAMESPACE__, __FILE__ )){
 				return false;
 			}
@@ -26,3 +26,4 @@
 	}
 	
 	$GLOBALS[ __NAMESPACE__ ] = new init();
+	$GLOBALS[ __NAMESPACE__ ]->load();

@@ -1,3 +1,6 @@
 [submodule "lib/core_plugin"]
 	path = lib/core_plugin
 	url = ../sv_core_plugin
+[submodule "lib/modules/sv_cleanup"]
+	path = lib/modules/sv_cleanup
+	url = ../module_sv_cleanup

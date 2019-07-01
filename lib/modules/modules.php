@@ -6,6 +6,6 @@
 		
 		}
 		public function init() {
-		
+			$this->sv_cleanup->init();
 		}
 	}
