@@ -1,0 +1,371 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SV100 Companion\n"
+"POT-Creation-Date: 2019-07-01 17:12+0200\n"
+"PO-Revision-Date: 2019-07-01 17:12+0200\n"
+"Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
+"Language-Team: Matthias Reuter <info@straightvisions.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sv100_companion.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: init.php:22
+msgid "SV100 Companion"
+msgstr "SV100 Companion"
+
+#. Description of the plugin/theme
+#: init.php:23
+msgid ""
+"This Plugin increases your PageSpeed even further. It is optimized to work "
+"well with our SV100 Theme."
+msgstr ""
+"Dieses Plugin erhöht Ihre PageSpeed noch weiter. Es ist darauf optimiert, um "
+"gut mit unserem SV100 Theme zusammenzuarbeiten."
+
+#: init.php:24
+msgid "does not collect or share any data"
+msgstr "sammelt und teilt keine Daten"
+
+#: lib/core_plugin/core/abstract.php:122 lib/core_plugin/core/abstract.php:138
+#: lib/core_plugin/core/abstract.php:154
+msgid "not defined"
+msgstr "nicht definiert"
+
+#: lib/core_plugin/core/abstract.php:425
+msgid "No Title defined."
+msgstr "Kein Titel definiert."
+
+#: lib/core_plugin/core/abstract.php:435
+msgid "No description defined."
+msgstr "Keine Beschreibung definiert."
+
+#: lib/core_plugin/core/abstract.php:444
+msgid "No privacy statement defined."
+msgstr "Keine Datenschutzerklärung definiert."
+
+#: lib/core_plugin/core/abstract.php:488
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:12
+msgid "Start"
+msgstr "Start"
+
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:13
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:14
+msgid "Finished"
+msgstr "Beendet"
+
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:17
+msgid "Continue Import from Cycle"
+msgstr "Import fortsetzen von Zyklus"
+
+#: lib/core_plugin/core/backend/tpl/about.php:5
+msgid "About"
+msgstr "Über"
+
+#: lib/core_plugin/core/backend/tpl/about.php:10
+#: lib/core_plugin/core_plugin.php:40 lib/core_plugin/core_plugin.php:41
+msgid "Info"
+msgstr "Info"
+
+#: lib/core_plugin/core/backend/tpl/about.php:12
+#: lib/core_plugin/core/info/backend/tpl/about.php:12
+msgid "Name:"
+msgstr "Name:"
+
+#: lib/core_plugin/core/backend/tpl/about.php:13
+msgid "Version:"
+msgstr "Version:"
+
+#: lib/core_plugin/core/backend/tpl/about.php:17
+#: lib/core_plugin/core/info/backend/tpl/about.php:18
+msgid "Description"
+msgstr "Beschreibung"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:12
+msgid "get current url"
+msgstr "Aktuelle URL"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:13
+msgid "URL to current location"
+msgstr "URL zum aktuellen Standort"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:19
+msgid "Name of current instance:"
+msgstr "Name der aktuellen Instanz:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:22
+msgid "Full hierarchy name:"
+msgstr "Voller Hierarchienname:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:28
+msgid "Shortname (without namespace) of current hierarchy class"
+msgstr "Kurzname (ohne Namensraum) der aktuellen Hierarchieklasse"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:34
+msgid "Prefix by get_name:"
+msgstr "Präfix via get_name:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:40
+msgid "Prefix by get_name, but root class replaced with sv_common:"
+msgstr "Präfix via get_name, aber root-Klasse durch sv_common ersetzt:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:46
+msgid "Absolute path to instance:"
+msgstr "Absoluter Pfad zur Instanz:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:52
+msgid "Absolute url to instance:"
+msgstr "Absolute URL zur Instanz:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:58
+msgid "Absolute path to core:"
+msgstr "Absoluter Pfad zur Core:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:64
+msgid "Absolute url to core:"
+msgstr "Absolute URL zur Core:"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:69
+msgid "Enqueue Admin Styles"
+msgstr "Enqueue Admin Styles"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:70
+msgid "Enqueue SV style for admin menu pages:"
+msgstr "Enqueue SV-Style für Admin-Menüseiten:"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:13
+msgid "Active Core Version:"
+msgstr "Aktive Kernversion:"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:14
+msgid "Active Core Path:"
+msgstr "Aktiver Kernpfad:"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:20
+msgid ""
+"Our themes and plugins share a core which provides commonly used features. "
+"The core is included and shared within each plugin or theme, so make sure if "
+"you update one product, to update all others too."
+msgstr ""
+"Unsere Themen und Plugins teilen einen Kern, der die gängigen Funktionen "
+"bietet. Der Kern ist in jedem Plugin oder Theme enthalten und geteilt. "
+"Stellen Sie möglichst sicher, dass wenn Sie ein Produkt aktualisieren, alle "
+"anderen auch aktualisieren."
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:24
+msgid "Instances"
+msgstr "Instanzen"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:31
+msgid "This plugin version is outdated, please update this plugin!"
+msgstr ""
+"Diese Pluginversion ist nicht mehr aktuell, bitte aktualisiere das Plugin!"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:37
+msgid "Theme"
+msgstr "Theme"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:37
+msgid "Plugin"
+msgstr "Plugin"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:41
+msgid "Active"
+msgstr "Aktiv"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:41
+#: lib/core_plugin/core/scripts/scripts.php:89
+#: lib/core_plugin/core/scripts/scripts.php:99
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: lib/core_plugin/core/scripts/scripts.php:40
+msgid "Override Scripts Loading."
+msgstr "Überschreib das Ladeverhalten von Scripts."
+
+#: lib/core_plugin/core/scripts/scripts.php:65
+msgid "Disable all CSS per Default"
+msgstr "Deaktiviere standardmäßig das Laden von CSS"
+
+#: lib/core_plugin/core/scripts/scripts.php:66
+msgid ""
+"CSS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"CSS wird standardmäßig deaktiviert - du kannst das weiter unten jeweils "
+"überschreiben."
+
+#: lib/core_plugin/core/scripts/scripts.php:71
+msgid "Disable all JS per Default"
+msgstr "Deaktiviere standardmäßig das Laden von JS"
+
+#: lib/core_plugin/core/scripts/scripts.php:72
+msgid ""
+"JS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"JS wird standardmäßig deaktiviert - du kannst das weiter unten jeweils "
+"überschreiben."
+
+#: lib/core_plugin/core/scripts/scripts.php:91
+#: lib/core_plugin/core/scripts/scripts.php:97
+msgid "Inline"
+msgstr "Inline"
+
+#: lib/core_plugin/core/scripts/scripts.php:91
+#: lib/core_plugin/core/scripts/scripts.php:98
+msgid "Attached"
+msgstr "Angehängt"
+
+#: lib/core_plugin/core/scripts/scripts.php:96
+msgid "Default"
+msgstr "Standard"
+
+#: lib/core_plugin/core/settings/modules/setting_group.php:49
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: lib/core_plugin/core/settings/modules/setting_group.php:78
+msgid "Entry"
+msgstr "Eintrag"
+
+#: lib/core_plugin/core/settings/modules/setting_group.php:78
+msgid "Group #"
+msgstr "Gruppe #"
+
+#: lib/core_plugin/core/settings/modules/setting_select_page.php:28
+msgid "No Page selected"
+msgstr "Keine Seite ausgewählt"
+
+#: lib/core_plugin/core/settings/modules/setting_upload.php:70
+msgid "Delete File"
+msgstr "Datei löschen"
+
+#: lib/core_plugin/core/settings/settings.php:219
+msgid "You need at least "
+msgstr "Du brauchst mindestens "
+
+#: lib/core_plugin/core_plugin.php:29 lib/core_plugin/core_plugin.php:30
+msgid "straightvisions"
+msgstr "straightvisions"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:17
+msgid "Cleanup"
+msgstr "Aufräumen"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:18
+msgid "Improve some WordPress Standards"
+msgstr "Verbessern Sie einige WordPress-Standards"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:67
+msgid "Disable jQuery Migrate"
+msgstr "jQuery Migrate deaktiveren"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:68
+msgid ""
+"In most cases, you will not need jQuery-Migrate. Disabling this script will "
+"reduce pageload and improve Pagespeed. Check for Javascript-Errors in "
+"Frontend after activating this."
+msgstr ""
+"In den meisten Fällen benötigen Sie jQuery-Migrate nicht. Wenn du dieses "
+"Skript deaktivierst, wird der Pageload reduziert und die Pagespeed "
+"verbessert. Überprüfe auf Javascript-Fehler im Frontend, nachdem du diese "
+"Funktion aktiviert hast."
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:74
+msgid "Remove non-critical meta data"
+msgstr "Entfernen nicht kritischer Metadaten"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:75
+msgid ""
+"Removes some lines of HTML-Meta-Data which are not critical for your site, "
+"but saves some byte of code in the frontend: rest_output_link_wp_head, "
+"wp_oembed_add_discovery_links, rsd_link, wlwmanifest_link, "
+"wp_shortlink_wp_head, wp_generator"
+msgstr ""
+"Entfernt einige Zeilen von HTML-Meta-Daten, die für deine Site nicht "
+"entscheidend sind, aber einige Byte Code im Frontend reduzieren: "
+"rest_output_link_wp_head, wp_oembed_add_discovery_links, rsd_link, "
+"wlwmanifest_link, wp_shortlink_wp_head, wp_generator"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:81
+msgid "Removes Emoji Styles"
+msgstr "Entfernt Emoji Styles"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:82
+msgid ""
+"Instead of loading those styles from WP, default browser emojis will be "
+"displayed"
+msgstr ""
+"Anstatt diese Stile aus WP zu laden, werden Standard-Browser-Emojis angezeigt"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:88
+#: lib/modules/sv_cleanup/sv_cleanup.php:95
+msgid "Load WP Media Styles inline"
+msgstr "Laden von WP-Medienstilen inline"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:89
+#: lib/modules/sv_cleanup/sv_cleanup.php:96
+msgid ""
+"To optimize your Pagespeed Score, you may need to load WP Media Styles "
+"inline if loaded. Activate this, if Pagespeed Test Tool says external WP "
+"Media Styles are renderblocking."
+msgstr ""
+"Um deinen Pagespeed-Score zu optimieren, müssen möglicherweise WP Media "
+"Styles inline geladen werden, wenn sie benötigt werden. Aktiviere dies, wenn "
+"das Pagespeed Test Tool sagt, dass externe WP-Medienstile das Rendern "
+"blockieren."
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:102
+msgid "Add alt-attributes to images if missing"
+msgstr "Hinzufügen von Alt-Attributen zu Bildern, wenn sie fehlen"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:103
+msgid ""
+"No image should be without alt-attribute, so if there are some without one, "
+"an empty one will be added."
+msgstr ""
+"Kein Bild sollte ohne alt-Attribut sein, also wenn es einige ohne gibt, wird "
+"ein leeres hinzugefügt."
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:109
+msgid "Remove type-attributes from style and script tags"
+msgstr "Entfernen von Typattributen aus Style- und Script-Tags"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:110
+msgid ""
+"These are not needed for standard purposes anymore, W3C recommends to remove "
+"them if not needed. You will reduce your pageload as well."
+msgstr ""
+"Diese werden für Standardzwecke nicht mehr benötigt, W3C empfiehlt, sie zu "
+"entfernen, wenn nicht benötigt. Auch der Pageload wird so reduziert."
+
+#. Plugin URI of the plugin/theme
+msgid "https://straightvisions.com/"
+msgstr "https://straightvisions.com/"
+
+#. Author of the plugin/theme
+msgid "straightvisions GmbH"
+msgstr "Übersichtliche GmbH"
+
+#. Author URI of the plugin/theme
+msgid "https://straightvisions.com"
+msgstr "https://straightvisions.com"
