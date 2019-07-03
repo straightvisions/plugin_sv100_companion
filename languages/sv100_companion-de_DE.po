@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SV100 Companion\n"
-"POT-Creation-Date: 2019-07-01 17:12+0200\n"
-"PO-Revision-Date: 2019-07-01 17:12+0200\n"
+"POT-Creation-Date: 2019-07-03 09:26+0200\n"
+"PO-Revision-Date: 2019-07-03 09:28+0200\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: Matthias Reuter <info@straightvisions.com>\n"
 "Language: de_DE\n"
@@ -44,19 +44,19 @@ msgstr "sammelt und teilt keine Daten"
 msgid "not defined"
 msgstr "nicht definiert"
 
-#: lib/core_plugin/core/abstract.php:425
+#: lib/core_plugin/core/abstract.php:428
 msgid "No Title defined."
 msgstr "Kein Titel definiert."
 
-#: lib/core_plugin/core/abstract.php:435
+#: lib/core_plugin/core/abstract.php:438
 msgid "No description defined."
 msgstr "Keine Beschreibung definiert."
 
-#: lib/core_plugin/core/abstract.php:444
+#: lib/core_plugin/core/abstract.php:447
 msgid "No privacy statement defined."
 msgstr "Keine Datenschutzerklärung definiert."
 
-#: lib/core_plugin/core/abstract.php:488
+#: lib/core_plugin/core/abstract.php:491
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -167,8 +167,8 @@ msgid ""
 msgstr ""
 "Unsere Themen und Plugins teilen einen Kern, der die gängigen Funktionen "
 "bietet. Der Kern ist in jedem Plugin oder Theme enthalten und geteilt. "
-"Stellen Sie möglichst sicher, dass wenn Sie ein Produkt aktualisieren, alle "
-"anderen auch aktualisieren."
+"Stelle möglichst sicher, dass wenn du ein Produkt aktualisierst, alle "
+"anderen auch auf dem aktuellen Stand sind."
 
 #: lib/core_plugin/core/info/backend/tpl/about.php:24
 msgid "Instances"
@@ -267,6 +267,18 @@ msgstr "Du brauchst mindestens "
 msgid "straightvisions"
 msgstr "straightvisions"
 
+#: lib/modules/sv_cleanup/lib/backend/tpl/settings.php:6
+msgid "Decrease PageLoad"
+msgstr "PageLoad verringern"
+
+#: lib/modules/sv_cleanup/lib/backend/tpl/settings.php:15
+msgid "Improve Scriptloading"
+msgstr "Scriptloading verbessern"
+
+#: lib/modules/sv_cleanup/lib/backend/tpl/settings.php:22
+msgid "Optimize W3C Validation"
+msgstr "W3C Validität verbessern"
+
 #: lib/modules/sv_cleanup/sv_cleanup.php:17
 msgid "Cleanup"
 msgstr "Aufräumen"
@@ -275,11 +287,11 @@ msgstr "Aufräumen"
 msgid "Improve some WordPress Standards"
 msgstr "Verbessern Sie einige WordPress-Standards"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:67
+#: lib/modules/sv_cleanup/sv_cleanup.php:68
 msgid "Disable jQuery Migrate"
 msgstr "jQuery Migrate deaktiveren"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:68
+#: lib/modules/sv_cleanup/sv_cleanup.php:69
 msgid ""
 "In most cases, you will not need jQuery-Migrate. Disabling this script will "
 "reduce pageload and improve Pagespeed. Check for Javascript-Errors in "
@@ -290,11 +302,11 @@ msgstr ""
 "verbessert. Überprüfe auf Javascript-Fehler im Frontend, nachdem du diese "
 "Funktion aktiviert hast."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:74
+#: lib/modules/sv_cleanup/sv_cleanup.php:75
 msgid "Remove non-critical meta data"
 msgstr "Entfernen nicht kritischer Metadaten"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:75
+#: lib/modules/sv_cleanup/sv_cleanup.php:76
 msgid ""
 "Removes some lines of HTML-Meta-Data which are not critical for your site, "
 "but saves some byte of code in the frontend: rest_output_link_wp_head, "
@@ -306,24 +318,24 @@ msgstr ""
 "rest_output_link_wp_head, wp_oembed_add_discovery_links, rsd_link, "
 "wlwmanifest_link, wp_shortlink_wp_head, wp_generator"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:81
+#: lib/modules/sv_cleanup/sv_cleanup.php:82
 msgid "Removes Emoji Styles"
 msgstr "Entfernt Emoji Styles"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:82
+#: lib/modules/sv_cleanup/sv_cleanup.php:83
 msgid ""
 "Instead of loading those styles from WP, default browser emojis will be "
 "displayed"
 msgstr ""
 "Anstatt diese Stile aus WP zu laden, werden Standard-Browser-Emojis angezeigt"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:88
-#: lib/modules/sv_cleanup/sv_cleanup.php:95
+#: lib/modules/sv_cleanup/sv_cleanup.php:89
+#: lib/modules/sv_cleanup/sv_cleanup.php:96
 msgid "Load WP Media Styles inline"
 msgstr "Laden von WP-Medienstilen inline"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:89
-#: lib/modules/sv_cleanup/sv_cleanup.php:96
+#: lib/modules/sv_cleanup/sv_cleanup.php:90
+#: lib/modules/sv_cleanup/sv_cleanup.php:97
 msgid ""
 "To optimize your Pagespeed Score, you may need to load WP Media Styles "
 "inline if loaded. Activate this, if Pagespeed Test Tool says external WP "
@@ -334,11 +346,11 @@ msgstr ""
 "das Pagespeed Test Tool sagt, dass externe WP-Medienstile das Rendern "
 "blockieren."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:102
+#: lib/modules/sv_cleanup/sv_cleanup.php:103
 msgid "Add alt-attributes to images if missing"
 msgstr "Hinzufügen von Alt-Attributen zu Bildern, wenn sie fehlen"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:103
+#: lib/modules/sv_cleanup/sv_cleanup.php:104
 msgid ""
 "No image should be without alt-attribute, so if there are some without one, "
 "an empty one will be added."
@@ -346,11 +358,11 @@ msgstr ""
 "Kein Bild sollte ohne alt-Attribut sein, also wenn es einige ohne gibt, wird "
 "ein leeres hinzugefügt."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:109
+#: lib/modules/sv_cleanup/sv_cleanup.php:110
 msgid "Remove type-attributes from style and script tags"
 msgstr "Entfernen von Typattributen aus Style- und Script-Tags"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:110
+#: lib/modules/sv_cleanup/sv_cleanup.php:111
 msgid ""
 "These are not needed for standard purposes anymore, W3C recommends to remove "
 "them if not needed. You will reduce your pageload as well."
