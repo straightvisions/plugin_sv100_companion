@@ -1,13 +1,15 @@
 <?php
 /*
-Plugin Name: SV100 Companion
-Plugin URI: https://straightvisions.com/
-Description: This Plugin increases your PageSpeed even further. It is optimized to work well with our SV100 Theme.
 Version: 1.4.00
+Plugin Name: SV100 Companion
+Text Domain: sv100_companion
+Description: This Plugin increases your PageSpeed even further. It is optimized to work well with our SV100 Theme.
+Plugin URI: https://straightvisions.com/
 Author: straightvisions GmbH
 Author URI: https://straightvisions.com
-Text Domain: sv100_companion
 Domain Path: /languages
+License: GPL3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
 
 namespace sv100_companion;
