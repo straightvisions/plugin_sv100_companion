@@ -6,8 +6,8 @@
 	}
 	
 	class init extends \sv_core\core_plugin {
-		const version = 1400;
-		const version_core_match = 4005;
+		const version = 1401;
+		const version_core_match = 4006;
 		
 		public function load(){
 			if(!$this->setup( __NAMESPACE__, __FILE__ )){
@@ -23,7 +23,7 @@
 			
 			$this->set_section_title( __( 'SV100 Companion', $this->get_root()->get_prefix() ) );
 			$this->set_section_desc( __( 'This Plugin increases your PageSpeed even further. It is optimized to work well with our SV100 Theme.', $this->get_root()->get_prefix() ) );
-			$this->set_section_privacy( '<p>' . $this->get_section_title() . __('does not collect or share any data', $this->get_root()->get_prefix()).'</p>' );
+			$this->set_section_privacy( '<p>' . $this->get_section_title() . __(' does not collect or share any data', $this->get_root()->get_prefix()).'</p>' );
 		}
 	}
 	
