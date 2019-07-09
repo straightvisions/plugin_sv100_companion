@@ -4,3 +4,6 @@
 [submodule "lib/modules/sv_cleanup"]
 	path = lib/modules/sv_cleanup
 	url = ../module_sv_cleanup
+[submodule "freemius"]
+	path = freemius
+	url = ../../Freemius/wordpress-sdk
