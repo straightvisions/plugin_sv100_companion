@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SV100 Companion\n"
-"POT-Creation-Date: 2019-07-03 09:26+0200\n"
-"PO-Revision-Date: 2019-07-03 09:28+0200\n"
+"POT-Creation-Date: 2019-07-10 13:26+0200\n"
+"PO-Revision-Date: 2019-07-10 13:26+0200\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: Matthias Reuter <info@straightvisions.com>\n"
 "Language: de_DE\n"
@@ -22,12 +22,12 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-#: init.php:22
+#: init.php:24
 msgid "SV100 Companion"
 msgstr "SV100 Companion"
 
 #. Description of the plugin/theme
-#: init.php:23
+#: init.php:25
 msgid ""
 "This Plugin increases your PageSpeed even further. It is optimized to work "
 "well with our SV100 Theme."
@@ -35,53 +35,54 @@ msgstr ""
 "Dieses Plugin erhöht Ihre PageSpeed noch weiter. Es ist darauf optimiert, um "
 "gut mit unserem SV100 Theme zusammenzuarbeiten."
 
-#: init.php:24
-msgid "does not collect or share any data"
-msgstr "sammelt und teilt keine Daten"
+#: init.php:26
+msgid " does not collect or share any data"
+msgstr " sammelt und teilt keine Daten"
 
-#: lib/core_plugin/core/abstract.php:122 lib/core_plugin/core/abstract.php:138
-#: lib/core_plugin/core/abstract.php:154
+#: lib/core_plugin/core/abstract.php:129 lib/core_plugin/core/abstract.php:145
+#: lib/core_plugin/core/abstract.php:161
 msgid "not defined"
 msgstr "nicht definiert"
 
-#: lib/core_plugin/core/abstract.php:428
+#: lib/core_plugin/core/abstract.php:437
 msgid "No Title defined."
 msgstr "Kein Titel definiert."
 
-#: lib/core_plugin/core/abstract.php:438
+#: lib/core_plugin/core/abstract.php:447
 msgid "No description defined."
 msgstr "Keine Beschreibung definiert."
 
-#: lib/core_plugin/core/abstract.php:447
+#: lib/core_plugin/core/abstract.php:456
 msgid "No privacy statement defined."
 msgstr "Keine Datenschutzerklärung definiert."
 
-#: lib/core_plugin/core/abstract.php:491
+#: lib/core_plugin/core/abstract.php:500
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:12
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:3
 msgid "Start"
 msgstr "Start"
 
-#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:13
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:4
 msgid "Processing"
 msgstr "In Bearbeitung"
 
-#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:14
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:5
 msgid "Finished"
 msgstr "Beendet"
 
-#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:17
+#: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:8
 msgid "Continue Import from Cycle"
 msgstr "Import fortsetzen von Zyklus"
 
 #: lib/core_plugin/core/backend/tpl/about.php:5
+#: lib/core_plugin/core/backend/tpl/header.php:15
 msgid "About"
 msgstr "Über"
 
 #: lib/core_plugin/core/backend/tpl/about.php:10
-#: lib/core_plugin/core_plugin.php:40 lib/core_plugin/core_plugin.php:41
+#: lib/core_plugin/core_plugin.php:39 lib/core_plugin/core_plugin.php:40
 msgid "Info"
 msgstr "Info"
 
@@ -98,6 +99,14 @@ msgstr "Version:"
 #: lib/core_plugin/core/info/backend/tpl/about.php:18
 msgid "Description"
 msgstr "Beschreibung"
+
+#: lib/core_plugin/core/backend/tpl/core_docs.php:10
+msgid ""
+"This cheat sheet lists core methods you may want to use when developing own "
+"modules."
+msgstr ""
+"Dieses Cheatsheet listet die wichtigsten Methoden auf, die Sie bei der "
+"Entwicklung eigener Module verwenden möchten."
 
 #: lib/core_plugin/core/backend/tpl/core_docs.php:12
 msgid "get current url"
@@ -151,6 +160,69 @@ msgstr "Enqueue Admin Styles"
 msgid "Enqueue SV style for admin menu pages:"
 msgstr "Enqueue SV-Style für Admin-Menüseiten:"
 
+#: lib/core_plugin/core/backend/tpl/header.php:16
+msgid "General info & description"
+msgstr "Allgemeine Infos & Beschreibung"
+
+#: lib/core_plugin/core/backend/tpl/header.php:20
+msgid "Core Docs"
+msgstr "Core Dokus"
+
+#: lib/core_plugin/core/backend/tpl/header.php:21
+msgid "Instance Core Methods"
+msgstr "Core Methoden der Instanz"
+
+#: lib/core_plugin/core/backend/tpl/header.php:26
+#: lib/core_plugin/core/backend/tpl/legal.php:5
+msgid "Legal Information"
+msgstr "Rechtliche Informationen"
+
+#: lib/core_plugin/core/backend/tpl/header.php:27
+msgid "Copyright & Usage"
+msgstr "Copyright & Nutzung"
+
+#: lib/core_plugin/core/backend/tpl/legal.php:9
+msgid "General Information"
+msgstr "Allgemeine Informationen"
+
+#: lib/core_plugin/core/backend/tpl/legal.php:11
+msgid "Project Website:"
+msgstr "Projekt-Website:"
+
+#. Author of the plugin/theme
+#: lib/core_plugin/core/backend/tpl/legal.php:11
+msgid "straightvisions GmbH"
+msgstr "straightvisions GmbH"
+
+#: lib/core_plugin/core/backend/tpl/legal.php:13
+msgid "License: GPL3 or later"
+msgstr "Lizenz: GPL3 oder höher"
+
+#: lib/core_plugin/core/backend/tpl/legal.php:25
+msgid "Privacy Statement"
+msgstr "Datenschutzerklärung"
+
+#: lib/core_plugin/core/core.php:87
+#: lib/core_plugin/core/info/backend/tpl/about.php:33
+msgid "Expert Mode"
+msgstr "Experten-Modus"
+
+#: lib/core_plugin/core/core.php:126 lib/core_plugin/core/core.php:145
+msgid "Setting saved"
+msgstr "Einstellung gespeichert"
+
+#: lib/core_plugin/core/core.php:140
+msgid "Nothing to update."
+msgstr "Nichts zu aktualisieren."
+
+#: lib/core_plugin/core/core.php:147
+msgid "You are unauthorized to perform this action."
+msgstr "Sie sind nicht berechtigt, diese Aktion durchzuführen."
+
+#: lib/core_plugin/core/core.php:150
+msgid "Nonce check cannot fail."
+msgstr "Nonce-Prüfung kann nicht fehlschlagen."
+
 #: lib/core_plugin/core/info/backend/tpl/about.php:13
 msgid "Active Core Version:"
 msgstr "Aktive Kernversion:"
@@ -171,29 +243,33 @@ msgstr ""
 "anderen auch auf dem aktuellen Stand sind."
 
 #: lib/core_plugin/core/info/backend/tpl/about.php:24
+msgid "Primary Instance"
+msgstr "Primäre Instanz"
+
+#: lib/core_plugin/core/info/backend/tpl/about.php:42
 msgid "Instances"
 msgstr "Instanzen"
 
-#: lib/core_plugin/core/info/backend/tpl/about.php:31
+#: lib/core_plugin/core/info/backend/tpl/about.php:49
 msgid "This plugin version is outdated, please update this plugin!"
 msgstr ""
 "Diese Pluginversion ist nicht mehr aktuell, bitte aktualisiere das Plugin!"
 
-#: lib/core_plugin/core/info/backend/tpl/about.php:37
+#: lib/core_plugin/core/info/backend/tpl/about.php:55
 msgid "Theme"
 msgstr "Theme"
 
-#: lib/core_plugin/core/info/backend/tpl/about.php:37
+#: lib/core_plugin/core/info/backend/tpl/about.php:55
 msgid "Plugin"
 msgstr "Plugin"
 
-#: lib/core_plugin/core/info/backend/tpl/about.php:41
+#: lib/core_plugin/core/info/backend/tpl/about.php:59
 msgid "Active"
 msgstr "Aktiv"
 
-#: lib/core_plugin/core/info/backend/tpl/about.php:41
-#: lib/core_plugin/core/scripts/scripts.php:89
-#: lib/core_plugin/core/scripts/scripts.php:99
+#: lib/core_plugin/core/info/backend/tpl/about.php:59
+#: lib/core_plugin/core/scripts/scripts.php:91
+#: lib/core_plugin/core/scripts/scripts.php:101
 msgid "Disabled"
 msgstr "Deaktiviert"
 
@@ -201,11 +277,11 @@ msgstr "Deaktiviert"
 msgid "Override Scripts Loading."
 msgstr "Überschreib das Ladeverhalten von Scripts."
 
-#: lib/core_plugin/core/scripts/scripts.php:65
+#: lib/core_plugin/core/scripts/scripts.php:67
 msgid "Disable all CSS per Default"
 msgstr "Deaktiviere standardmäßig das Laden von CSS"
 
-#: lib/core_plugin/core/scripts/scripts.php:66
+#: lib/core_plugin/core/scripts/scripts.php:68
 msgid ""
 "CSS enqueued will be disabled by default - you may override this later down "
 "below."
@@ -213,11 +289,11 @@ msgstr ""
 "CSS wird standardmäßig deaktiviert - du kannst das weiter unten jeweils "
 "überschreiben."
 
-#: lib/core_plugin/core/scripts/scripts.php:71
+#: lib/core_plugin/core/scripts/scripts.php:73
 msgid "Disable all JS per Default"
 msgstr "Deaktiviere standardmäßig das Laden von JS"
 
-#: lib/core_plugin/core/scripts/scripts.php:72
+#: lib/core_plugin/core/scripts/scripts.php:74
 msgid ""
 "JS enqueued will be disabled by default - you may override this later down "
 "below."
@@ -225,17 +301,17 @@ msgstr ""
 "JS wird standardmäßig deaktiviert - du kannst das weiter unten jeweils "
 "überschreiben."
 
-#: lib/core_plugin/core/scripts/scripts.php:91
-#: lib/core_plugin/core/scripts/scripts.php:97
+#: lib/core_plugin/core/scripts/scripts.php:93
+#: lib/core_plugin/core/scripts/scripts.php:99
 msgid "Inline"
 msgstr "Inline"
 
-#: lib/core_plugin/core/scripts/scripts.php:91
-#: lib/core_plugin/core/scripts/scripts.php:98
+#: lib/core_plugin/core/scripts/scripts.php:93
+#: lib/core_plugin/core/scripts/scripts.php:100
 msgid "Attached"
 msgstr "Angehängt"
 
-#: lib/core_plugin/core/scripts/scripts.php:96
+#: lib/core_plugin/core/scripts/scripts.php:98
 msgid "Default"
 msgstr "Standard"
 
@@ -259,11 +335,11 @@ msgstr "Keine Seite ausgewählt"
 msgid "Delete File"
 msgstr "Datei löschen"
 
-#: lib/core_plugin/core/settings/settings.php:219
+#: lib/core_plugin/core/settings/settings.php:228
 msgid "You need at least "
 msgstr "Du brauchst mindestens "
 
-#: lib/core_plugin/core_plugin.php:29 lib/core_plugin/core_plugin.php:30
+#: lib/core_plugin/core_plugin.php:28 lib/core_plugin/core_plugin.php:29
 msgid "straightvisions"
 msgstr "straightvisions"
 
@@ -370,13 +446,46 @@ msgstr ""
 "Diese werden für Standardzwecke nicht mehr benötigt, W3C empfiehlt, sie zu "
 "entfernen, wenn nicht benötigt. Auch der Pageload wird so reduziert."
 
+#: lib/modules/sv_human_time/sv_human_time.php:17
+msgid "Relative Time and Dates"
+msgstr "Relative Zeit und Datumsangaben"
+
+#: lib/modules/sv_human_time/sv_human_time.php:18
+msgid "Enable relative dateformats"
+msgstr "Relative Datumsformate aktivieren"
+
+#: lib/modules/sv_human_time/sv_human_time.php:36
+msgid "Enables relative date format for all posts"
+msgstr "Aktiviert das relative Datumsformat für alle Beiträge"
+
+#: lib/modules/sv_human_time/sv_human_time.php:43
+msgid "Enables relative date format for all comments"
+msgstr "Aktiviert das relative Datumsformat für alle Kommentare"
+
+#: lib/modules/sv_human_time/sv_human_time.php:50
+msgid "Show Date Format"
+msgstr "Datumsformat anzeigen"
+
+#: lib/modules/sv_human_time/sv_human_time.php:51
+msgid ""
+"Shows the date and time in the default WordPress format, when the time "
+"difference is higher than the set days. 0 = never"
+msgstr ""
+"Zeigt das Datum und die Uhrzeit im Standard-WordPress-Format an, wenn der "
+"Zeitunterschied höher ist als die gesetzten Tage. 0 = nie"
+
+#: lib/modules/sv_human_time/sv_human_time.php:77
+msgid "Starting date is needed!"
+msgstr "Startdatum ist erforderlich!"
+
+#: lib/modules/sv_human_time/sv_human_time.php:97
+#, php-format
+msgid "%s ago"
+msgstr "vor %s"
+
 #. Plugin URI of the plugin/theme
 msgid "https://straightvisions.com/"
 msgstr "https://straightvisions.com/"
-
-#. Author of the plugin/theme
-msgid "straightvisions GmbH"
-msgstr "Übersichtliche GmbH"
 
 #. Author URI of the plugin/theme
 msgid "https://straightvisions.com"
