@@ -1,6 +1,6 @@
-	SV Proven Expert
-		is a plugin based on SV Proven Expert API to show reviw stars on your website and the Google SERP entries of your site.
-	Code (c) 2017-2019 straightvisions GmbH
+	SV100 Companion
+		This Plugin increases your PageSpeed even further. It is optimized to work well with our SV100 Theme.
+	Code (c) 2019 straightvisions GmbH
 	Project Leader: Matthias Bathke
 	Project Website: https://straightvisions.com
 
