@@ -12,13 +12,13 @@
 		}
 		
 		public function load_sdk() {
-			global $freemius;
+			global $sv100_companion_freemius;
 			
-			if ( ! isset( $freemius ) ) {
+			if ( ! isset( $sv100_companion_freemius ) ) {
 				// Include Freemius SDK.
-				require_once $this->get_path('freemius/start.php');
-				
-				$freemius = fs_dynamic_init( array(
+				require_once($this->get_path('freemius/start.php'));
+
+				$sv100_companion_freemius = fs_dynamic_init( array(
 					'id'                  => '4082',
 					'slug'                => 'sv100-companion',
 					'type'                => 'plugin',
@@ -35,6 +35,6 @@
 				) );
 			}
 			
-			return $freemius;
+			return $sv100_companion_freemius;
 		}
 	}
