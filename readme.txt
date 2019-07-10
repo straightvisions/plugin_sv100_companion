@@ -36,9 +36,9 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 == Changelog ==
 
 = 1.4.02 =
-- add support links
-- add footer settings
-- add relative time feature
+* add support links
+* add footer settings
+* add relative time feature
 
 = 1.4.00 =
 Initial Release
@@ -46,9 +46,9 @@ Initial Release
 == Upgrade Notice ==
 
 = 1.4.02 =
-- add support links
-- add footer settings
-- add relative time feature
+* add support links
+* add footer settings
+* add relative time feature
 
 = 1.4.00 =
 Initial Release
