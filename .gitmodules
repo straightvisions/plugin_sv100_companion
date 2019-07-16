@@ -13,3 +13,9 @@
 [submodule "lib/modules/sv_footer_credits"]
 	path = lib/modules/sv_footer_credits
 	url = ../module_sv_footer_credits
+[submodule "lib/modules/sv_media_lib"]
+	path = lib/modules/sv_media_lib
+	url = ../module_sv_media_lib
+[submodule "lib/modules/sv_icon"]
+	path = lib/modules/sv_icon
+	url = ../module_sv_icon
