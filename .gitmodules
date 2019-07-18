@@ -4,9 +4,6 @@
 [submodule "lib/modules/sv_cleanup"]
 	path = lib/modules/sv_cleanup
 	url = ../module_sv_cleanup
-[submodule "freemius"]
-	path = freemius
-	url = ../../Freemius/wordpress-sdk
 [submodule "lib/modules/sv_human_time"]
 	path = lib/modules/sv_human_time
 	url = ../module_sv_human_time
@@ -19,3 +16,6 @@
 [submodule "lib/modules/sv_icon"]
 	path = lib/modules/sv_icon
 	url = ../module_sv_icon
+[submodule "lib/freemius"]
+	path = lib/freemius
+	url = ../../Freemius/wordpress-sdk
