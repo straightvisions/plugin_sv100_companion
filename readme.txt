@@ -36,9 +36,7 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 == Changelog ==
 
 = 1.4.04 =
-* add support links
-* add footer settings
-* add relative time feature
+* update core
 
 = 1.4.02 =
 * add support links
