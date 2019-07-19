@@ -10,6 +10,3 @@
 [submodule "lib/modules/sv_footer_credits"]
 	path = lib/modules/sv_footer_credits
 	url = ../module_sv_footer_credits
-[submodule "lib/freemius"]
-	path = lib/freemius
-	url = ../../Freemius/wordpress-sdk
