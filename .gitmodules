@@ -4,18 +4,12 @@
 [submodule "lib/modules/sv_cleanup"]
 	path = lib/modules/sv_cleanup
 	url = ../module_sv_cleanup
-[submodule "freemius"]
-	path = freemius
-	url = ../../Freemius/wordpress-sdk
 [submodule "lib/modules/sv_human_time"]
 	path = lib/modules/sv_human_time
 	url = ../module_sv_human_time
 [submodule "lib/modules/sv_footer_credits"]
 	path = lib/modules/sv_footer_credits
 	url = ../module_sv_footer_credits
-[submodule "lib/modules/sv_media_lib"]
-	path = lib/modules/sv_media_lib
-	url = ../module_sv_media_lib
-[submodule "lib/modules/sv_icon"]
-	path = lib/modules/sv_icon
-	url = ../module_sv_icon
+[submodule "lib/freemius"]
+	path = lib/freemius
+	url = ../../Freemius/wordpress-sdk

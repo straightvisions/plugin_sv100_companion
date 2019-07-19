@@ -16,7 +16,7 @@
 			
 			if ( ! isset( $sv100_companion_freemius ) ) {
 				// Include Freemius SDK.
-				require_once($this->get_path('freemius/start.php'));
+				require_once($this->get_path('lib/freemius/start.php'));
 
 				$sv100_companion_freemius = fs_dynamic_init( array(
 					'id'                  => '4082',
@@ -24,7 +24,7 @@
 					'type'                => 'plugin',
 					'public_key'          => 'pk_bb203616096bc726f69ca51a0bbe3',
 					'is_premium'          => false,
-					'has_addons'          => false,
+					'has_addons'          => true,
 					'has_paid_plans'      => false,
 					'menu'                => array(
 						'slug'           => 'sv100_companion',
