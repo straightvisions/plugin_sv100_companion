@@ -15,9 +15,6 @@
 			global $sv100_companion_freemius;
 			
 			if ( ! isset( $sv100_companion_freemius ) ) {
-				// Include Freemius SDK.
-				require_once($this->get_path('lib/freemius/start.php'));
-
 				$sv100_companion_freemius = fs_dynamic_init( array(
 					'id'                  => '4082',
 					'slug'                => 'sv100-companion',
