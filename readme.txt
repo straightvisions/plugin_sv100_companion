@@ -37,6 +37,7 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 
 = 1.4.04 =
 * update core
+* add css lazyload
 
 = 1.4.02 =
 * add support links
@@ -47,6 +48,10 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 Initial Release
 
 == Upgrade Notice ==
+
+= 1.4.04 =
+* update core
+* add css lazyload
 
 = 1.4.02 =
 * add support links
