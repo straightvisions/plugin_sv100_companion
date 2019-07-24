@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SV100 Companion\n"
-"POT-Creation-Date: 2019-07-10 13:26+0200\n"
-"PO-Revision-Date: 2019-07-10 13:26+0200\n"
+"POT-Creation-Date: 2019-07-24 13:19+0200\n"
+"PO-Revision-Date: 2019-07-24 13:21+0200\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: Matthias Reuter <info@straightvisions.com>\n"
 "Language: de_DE\n"
@@ -22,12 +22,12 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-#: init.php:24
+#: init.php:17
 msgid "SV100 Companion"
 msgstr "SV100 Companion"
 
 #. Description of the plugin/theme
-#: init.php:25
+#: init.php:18
 msgid ""
 "This Plugin increases your PageSpeed even further. It is optimized to work "
 "well with our SV100 Theme."
@@ -35,28 +35,28 @@ msgstr ""
 "Dieses Plugin erhöht Ihre PageSpeed noch weiter. Es ist darauf optimiert, um "
 "gut mit unserem SV100 Theme zusammenzuarbeiten."
 
-#: init.php:26
+#: init.php:19
 msgid " does not collect or share any data"
 msgstr " sammelt und teilt keine Daten"
 
-#: lib/core_plugin/core/abstract.php:129 lib/core_plugin/core/abstract.php:145
-#: lib/core_plugin/core/abstract.php:161
+#: lib/core_plugin/core/abstract.php:131 lib/core_plugin/core/abstract.php:147
+#: lib/core_plugin/core/abstract.php:163
 msgid "not defined"
 msgstr "nicht definiert"
 
-#: lib/core_plugin/core/abstract.php:437
+#: lib/core_plugin/core/abstract.php:462
 msgid "No Title defined."
 msgstr "Kein Titel definiert."
 
-#: lib/core_plugin/core/abstract.php:447
+#: lib/core_plugin/core/abstract.php:472
 msgid "No description defined."
 msgstr "Keine Beschreibung definiert."
 
-#: lib/core_plugin/core/abstract.php:456
+#: lib/core_plugin/core/abstract.php:481
 msgid "No privacy statement defined."
 msgstr "Keine Datenschutzerklärung definiert."
 
-#: lib/core_plugin/core/abstract.php:500
+#: lib/core_plugin/core/abstract.php:525
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -160,6 +160,10 @@ msgstr "Enqueue Admin Styles"
 msgid "Enqueue SV style for admin menu pages:"
 msgstr "Enqueue SV-Style für Admin-Menüseiten:"
 
+#: lib/core_plugin/core/backend/tpl/footer.php:10
+msgid "Cancel"
+msgstr ""
+
 #: lib/core_plugin/core/backend/tpl/header.php:16
 msgid "General info & description"
 msgstr "Allgemeine Infos & Beschreibung"
@@ -202,24 +206,24 @@ msgstr "Lizenz: GPL3 oder höher"
 msgid "Privacy Statement"
 msgstr "Datenschutzerklärung"
 
-#: lib/core_plugin/core/core.php:87
+#: lib/core_plugin/core/core.php:89
 #: lib/core_plugin/core/info/backend/tpl/about.php:33
 msgid "Expert Mode"
 msgstr "Experten-Modus"
 
-#: lib/core_plugin/core/core.php:126 lib/core_plugin/core/core.php:145
+#: lib/core_plugin/core/core.php:128 lib/core_plugin/core/core.php:147
 msgid "Setting saved"
 msgstr "Einstellung gespeichert"
 
-#: lib/core_plugin/core/core.php:140
+#: lib/core_plugin/core/core.php:142
 msgid "Nothing to update."
 msgstr "Nichts zu aktualisieren."
 
-#: lib/core_plugin/core/core.php:147
+#: lib/core_plugin/core/core.php:149
 msgid "You are unauthorized to perform this action."
 msgstr "Sie sind nicht berechtigt, diese Aktion durchzuführen."
 
-#: lib/core_plugin/core/core.php:150
+#: lib/core_plugin/core/core.php:152
 msgid "Nonce check cannot fail."
 msgstr "Nonce-Prüfung kann nicht fehlschlagen."
 
@@ -272,6 +276,10 @@ msgstr "Aktiv"
 #: lib/core_plugin/core/scripts/scripts.php:101
 msgid "Disabled"
 msgstr "Deaktiviert"
+
+#: lib/core_plugin/core/scripts/scripts.php:39
+msgid "Scripts"
+msgstr ""
 
 #: lib/core_plugin/core/scripts/scripts.php:40
 msgid "Override Scripts Loading."
@@ -351,7 +359,7 @@ msgstr "PageLoad verringern"
 msgid "Improve Scriptloading"
 msgstr "Scriptloading verbessern"
 
-#: lib/modules/sv_cleanup/lib/backend/tpl/settings.php:22
+#: lib/modules/sv_cleanup/lib/backend/tpl/settings.php:23
 msgid "Optimize W3C Validation"
 msgstr "W3C Validität verbessern"
 
@@ -363,11 +371,11 @@ msgstr "Aufräumen"
 msgid "Improve some WordPress Standards"
 msgstr "Verbessern Sie einige WordPress-Standards"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:68
+#: lib/modules/sv_cleanup/sv_cleanup.php:81
 msgid "Disable jQuery Migrate"
 msgstr "jQuery Migrate deaktiveren"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:69
+#: lib/modules/sv_cleanup/sv_cleanup.php:82
 msgid ""
 "In most cases, you will not need jQuery-Migrate. Disabling this script will "
 "reduce pageload and improve Pagespeed. Check for Javascript-Errors in "
@@ -378,11 +386,11 @@ msgstr ""
 "verbessert. Überprüfe auf Javascript-Fehler im Frontend, nachdem du diese "
 "Funktion aktiviert hast."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:75
+#: lib/modules/sv_cleanup/sv_cleanup.php:86
 msgid "Remove non-critical meta data"
 msgstr "Entfernen nicht kritischer Metadaten"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:76
+#: lib/modules/sv_cleanup/sv_cleanup.php:87
 msgid ""
 "Removes some lines of HTML-Meta-Data which are not critical for your site, "
 "but saves some byte of code in the frontend: rest_output_link_wp_head, "
@@ -394,23 +402,21 @@ msgstr ""
 "rest_output_link_wp_head, wp_oembed_add_discovery_links, rsd_link, "
 "wlwmanifest_link, wp_shortlink_wp_head, wp_generator"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:82
+#: lib/modules/sv_cleanup/sv_cleanup.php:91
 msgid "Removes Emoji Styles"
 msgstr "Entfernt Emoji Styles"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:83
+#: lib/modules/sv_cleanup/sv_cleanup.php:92
 msgid ""
 "Instead of loading those styles from WP, default browser emojis will be "
 "displayed"
 msgstr ""
 "Anstatt diese Stile aus WP zu laden, werden Standard-Browser-Emojis angezeigt"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:89
 #: lib/modules/sv_cleanup/sv_cleanup.php:96
 msgid "Load WP Media Styles inline"
 msgstr "Laden von WP-Medienstilen inline"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:90
 #: lib/modules/sv_cleanup/sv_cleanup.php:97
 msgid ""
 "To optimize your Pagespeed Score, you may need to load WP Media Styles "
@@ -422,11 +428,24 @@ msgstr ""
 "das Pagespeed Test Tool sagt, dass externe WP-Medienstile das Rendern "
 "blockieren."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:103
+#: lib/modules/sv_cleanup/sv_cleanup.php:101
+msgid "Lazyload attached CSS files"
+msgstr "Nachträgliches Laden (Lazyload) von angehängten CSS Dateien"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:102
+#, php-format
+msgid ""
+"Attached CSS should be lazyloaded. Even with WP-Rocket this is not solved "
+"completely %1$s(see issue)%2$s"
+msgstr ""
+"Angehängtes CSS sollte nachträglich geladen werden. Selbst mit WP-Rocket ist "
+"es nicht komplett gelöst %1$s(Ticket)%2$s"
+
+#: lib/modules/sv_cleanup/sv_cleanup.php:109
 msgid "Add alt-attributes to images if missing"
 msgstr "Hinzufügen von Alt-Attributen zu Bildern, wenn sie fehlen"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:104
+#: lib/modules/sv_cleanup/sv_cleanup.php:110
 msgid ""
 "No image should be without alt-attribute, so if there are some without one, "
 "an empty one will be added."
@@ -434,17 +453,33 @@ msgstr ""
 "Kein Bild sollte ohne alt-Attribut sein, also wenn es einige ohne gibt, wird "
 "ein leeres hinzugefügt."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:110
+#: lib/modules/sv_cleanup/sv_cleanup.php:114
 msgid "Remove type-attributes from style and script tags"
 msgstr "Entfernen von Typattributen aus Style- und Script-Tags"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:111
+#: lib/modules/sv_cleanup/sv_cleanup.php:115
 msgid ""
 "These are not needed for standard purposes anymore, W3C recommends to remove "
 "them if not needed. You will reduce your pageload as well."
 msgstr ""
 "Diese werden für Standardzwecke nicht mehr benötigt, W3C empfiehlt, sie zu "
 "entfernen, wenn nicht benötigt. Auch der Pageload wird so reduziert."
+
+#: lib/modules/sv_footer_credits/sv_footer_credits.php:17
+msgid "Footer Credits"
+msgstr "Fußzeilen Credits"
+
+#: lib/modules/sv_footer_credits/sv_footer_credits.php:18
+msgid "Adjust Footer Credit Settings for SV100 Theme"
+msgstr "Einstellen der Fußzeilencredits für das SV100 Theme"
+
+#: lib/modules/sv_footer_credits/sv_footer_credits.php:30
+msgid "Disable credits footer at all."
+msgstr "Fußzeilencredits komplett deaktivieren."
+
+#: lib/modules/sv_footer_credits/sv_footer_credits.php:37
+msgid "Set your own text for credits."
+msgstr "Eigenen Text für Credits festlegen."
 
 #: lib/modules/sv_human_time/sv_human_time.php:17
 msgid "Relative Time and Dates"
@@ -458,15 +493,15 @@ msgstr "Relative Datumsformate aktivieren"
 msgid "Enables relative date format for all posts"
 msgstr "Aktiviert das relative Datumsformat für alle Beiträge"
 
-#: lib/modules/sv_human_time/sv_human_time.php:43
+#: lib/modules/sv_human_time/sv_human_time.php:42
 msgid "Enables relative date format for all comments"
 msgstr "Aktiviert das relative Datumsformat für alle Kommentare"
 
-#: lib/modules/sv_human_time/sv_human_time.php:50
+#: lib/modules/sv_human_time/sv_human_time.php:48
 msgid "Show Date Format"
 msgstr "Datumsformat anzeigen"
 
-#: lib/modules/sv_human_time/sv_human_time.php:51
+#: lib/modules/sv_human_time/sv_human_time.php:49
 msgid ""
 "Shows the date and time in the default WordPress format, when the time "
 "difference is higher than the set days. 0 = never"
@@ -474,11 +509,11 @@ msgstr ""
 "Zeigt das Datum und die Uhrzeit im Standard-WordPress-Format an, wenn der "
 "Zeitunterschied höher ist als die gesetzten Tage. 0 = nie"
 
-#: lib/modules/sv_human_time/sv_human_time.php:77
+#: lib/modules/sv_human_time/sv_human_time.php:75
 msgid "Starting date is needed!"
 msgstr "Startdatum ist erforderlich!"
 
-#: lib/modules/sv_human_time/sv_human_time.php:97
+#: lib/modules/sv_human_time/sv_human_time.php:95
 #, php-format
 msgid "%s ago"
 msgstr "vor %s"
