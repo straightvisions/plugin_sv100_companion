@@ -8,7 +8,6 @@
 		
 		public function init() {
 			$this->load_sdk();
-			do_action( 'sv100_companion_freemius_loaded' );
 		}
 		
 		public function load_sdk() {
@@ -31,6 +30,8 @@
 					),
 				) );
 			}
+
+			do_action( 'sv100_companion_freemius_loaded' );
 			
 			return $sv100_companion_freemius;
 		}

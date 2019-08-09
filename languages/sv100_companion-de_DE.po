@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SV100 Companion\n"
-"POT-Creation-Date: 2019-07-24 13:19+0200\n"
-"PO-Revision-Date: 2019-07-24 13:21+0200\n"
+"POT-Creation-Date: 2019-08-09 14:26+0200\n"
+"PO-Revision-Date: 2019-08-09 14:26+0200\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: Matthias Reuter <info@straightvisions.com>\n"
 "Language: de_DE\n"
@@ -39,24 +39,24 @@ msgstr ""
 msgid " does not collect or share any data"
 msgstr " sammelt und teilt keine Daten"
 
-#: lib/core_plugin/core/abstract.php:131 lib/core_plugin/core/abstract.php:147
-#: lib/core_plugin/core/abstract.php:163
+#: lib/core_plugin/core/abstract.php:130 lib/core_plugin/core/abstract.php:146
+#: lib/core_plugin/core/abstract.php:162
 msgid "not defined"
 msgstr "nicht definiert"
 
-#: lib/core_plugin/core/abstract.php:462
+#: lib/core_plugin/core/abstract.php:461
 msgid "No Title defined."
 msgstr "Kein Titel definiert."
 
-#: lib/core_plugin/core/abstract.php:472
+#: lib/core_plugin/core/abstract.php:471
 msgid "No description defined."
 msgstr "Keine Beschreibung definiert."
 
-#: lib/core_plugin/core/abstract.php:481
+#: lib/core_plugin/core/abstract.php:480
 msgid "No privacy statement defined."
 msgstr "Keine Datenschutzerklärung definiert."
 
-#: lib/core_plugin/core/abstract.php:525
+#: lib/core_plugin/core/abstract.php:524
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -82,7 +82,7 @@ msgid "About"
 msgstr "Über"
 
 #: lib/core_plugin/core/backend/tpl/about.php:10
-#: lib/core_plugin/core_plugin.php:39 lib/core_plugin/core_plugin.php:40
+#: lib/core_plugin/core_plugin.php:41 lib/core_plugin/core_plugin.php:42
 msgid "Info"
 msgstr "Info"
 
@@ -162,7 +162,7 @@ msgstr "Enqueue SV-Style für Admin-Menüseiten:"
 
 #: lib/core_plugin/core/backend/tpl/footer.php:10
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #: lib/core_plugin/core/backend/tpl/header.php:16
 msgid "General info & description"
@@ -206,24 +206,24 @@ msgstr "Lizenz: GPL3 oder höher"
 msgid "Privacy Statement"
 msgstr "Datenschutzerklärung"
 
-#: lib/core_plugin/core/core.php:89
+#: lib/core_plugin/core/core.php:87
 #: lib/core_plugin/core/info/backend/tpl/about.php:33
 msgid "Expert Mode"
 msgstr "Experten-Modus"
 
-#: lib/core_plugin/core/core.php:128 lib/core_plugin/core/core.php:147
+#: lib/core_plugin/core/core.php:128 lib/core_plugin/core/core.php:145
 msgid "Setting saved"
 msgstr "Einstellung gespeichert"
 
-#: lib/core_plugin/core/core.php:142
+#: lib/core_plugin/core/core.php:140
 msgid "Nothing to update."
 msgstr "Nichts zu aktualisieren."
 
-#: lib/core_plugin/core/core.php:149
+#: lib/core_plugin/core/core.php:147
 msgid "You are unauthorized to perform this action."
 msgstr "Sie sind nicht berechtigt, diese Aktion durchzuführen."
 
-#: lib/core_plugin/core/core.php:152
+#: lib/core_plugin/core/core.php:150
 msgid "Nonce check cannot fail."
 msgstr "Nonce-Prüfung kann nicht fehlschlagen."
 
@@ -279,7 +279,7 @@ msgstr "Deaktiviert"
 
 #: lib/core_plugin/core/scripts/scripts.php:39
 msgid "Scripts"
-msgstr ""
+msgstr "Skripte"
 
 #: lib/core_plugin/core/scripts/scripts.php:40
 msgid "Override Scripts Loading."
@@ -347,7 +347,7 @@ msgstr "Datei löschen"
 msgid "You need at least "
 msgstr "Du brauchst mindestens "
 
-#: lib/core_plugin/core_plugin.php:28 lib/core_plugin/core_plugin.php:29
+#: lib/core_plugin/core_plugin.php:30 lib/core_plugin/core_plugin.php:31
 msgid "straightvisions"
 msgstr "straightvisions"
 
@@ -371,11 +371,11 @@ msgstr "Aufräumen"
 msgid "Improve some WordPress Standards"
 msgstr "Verbessern Sie einige WordPress-Standards"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:81
+#: lib/modules/sv_cleanup/sv_cleanup.php:82
 msgid "Disable jQuery Migrate"
 msgstr "jQuery Migrate deaktiveren"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:82
+#: lib/modules/sv_cleanup/sv_cleanup.php:83
 msgid ""
 "In most cases, you will not need jQuery-Migrate. Disabling this script will "
 "reduce pageload and improve Pagespeed. Check for Javascript-Errors in "
@@ -386,11 +386,11 @@ msgstr ""
 "verbessert. Überprüfe auf Javascript-Fehler im Frontend, nachdem du diese "
 "Funktion aktiviert hast."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:86
+#: lib/modules/sv_cleanup/sv_cleanup.php:87
 msgid "Remove non-critical meta data"
 msgstr "Entfernen nicht kritischer Metadaten"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:87
+#: lib/modules/sv_cleanup/sv_cleanup.php:88
 msgid ""
 "Removes some lines of HTML-Meta-Data which are not critical for your site, "
 "but saves some byte of code in the frontend: rest_output_link_wp_head, "
@@ -402,22 +402,22 @@ msgstr ""
 "rest_output_link_wp_head, wp_oembed_add_discovery_links, rsd_link, "
 "wlwmanifest_link, wp_shortlink_wp_head, wp_generator"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:91
+#: lib/modules/sv_cleanup/sv_cleanup.php:92
 msgid "Removes Emoji Styles"
 msgstr "Entfernt Emoji Styles"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:92
+#: lib/modules/sv_cleanup/sv_cleanup.php:93
 msgid ""
 "Instead of loading those styles from WP, default browser emojis will be "
 "displayed"
 msgstr ""
 "Anstatt diese Stile aus WP zu laden, werden Standard-Browser-Emojis angezeigt"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:96
+#: lib/modules/sv_cleanup/sv_cleanup.php:97
 msgid "Load WP Media Styles inline"
 msgstr "Laden von WP-Medienstilen inline"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:97
+#: lib/modules/sv_cleanup/sv_cleanup.php:98
 msgid ""
 "To optimize your Pagespeed Score, you may need to load WP Media Styles "
 "inline if loaded. Activate this, if Pagespeed Test Tool says external WP "
@@ -428,11 +428,11 @@ msgstr ""
 "das Pagespeed Test Tool sagt, dass externe WP-Medienstile das Rendern "
 "blockieren."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:101
+#: lib/modules/sv_cleanup/sv_cleanup.php:102
 msgid "Lazyload attached CSS files"
 msgstr "Nachträgliches Laden (Lazyload) von angehängten CSS Dateien"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:102
+#: lib/modules/sv_cleanup/sv_cleanup.php:103
 #, php-format
 msgid ""
 "Attached CSS should be lazyloaded. Even with WP-Rocket this is not solved "
@@ -441,11 +441,11 @@ msgstr ""
 "Angehängtes CSS sollte nachträglich geladen werden. Selbst mit WP-Rocket ist "
 "es nicht komplett gelöst %1$s(Ticket)%2$s"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:109
+#: lib/modules/sv_cleanup/sv_cleanup.php:110
 msgid "Add alt-attributes to images if missing"
 msgstr "Hinzufügen von Alt-Attributen zu Bildern, wenn sie fehlen"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:110
+#: lib/modules/sv_cleanup/sv_cleanup.php:111
 msgid ""
 "No image should be without alt-attribute, so if there are some without one, "
 "an empty one will be added."
@@ -453,11 +453,11 @@ msgstr ""
 "Kein Bild sollte ohne alt-Attribut sein, also wenn es einige ohne gibt, wird "
 "ein leeres hinzugefügt."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:114
+#: lib/modules/sv_cleanup/sv_cleanup.php:115
 msgid "Remove type-attributes from style and script tags"
 msgstr "Entfernen von Typattributen aus Style- und Script-Tags"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:115
+#: lib/modules/sv_cleanup/sv_cleanup.php:116
 msgid ""
 "These are not needed for standard purposes anymore, W3C recommends to remove "
 "them if not needed. You will reduce your pageload as well."
@@ -518,6 +518,81 @@ msgstr "Startdatum ist erforderlich!"
 msgid "%s ago"
 msgstr "vor %s"
 
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:21
+msgid "Settings imported."
+msgstr "Einstellungen importiert."
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:36
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:93
+msgid "Import settings"
+msgstr "Import Einstellungen"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:37
+msgid "All your settings will be removed and replaced with the new settings."
+msgstr ""
+"Alle deine Einstellungen werden entfernt und durch die neuen Einstellungen "
+"ersetzt."
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:38
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:63
+msgid "Do you want to proceed?"
+msgstr "Willst du fortfahren?"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:61
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:119
+msgid "Reset settings"
+msgstr "Einstellungen zurücksetzen"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:62
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:111
+msgid ""
+"All your settings will be removed and replaced with the default settings."
+msgstr ""
+"Alle deine Einstellungen werden entfernt und durch die Standardeinstellungen "
+"ersetzt."
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:74
+msgid "Import"
+msgstr "Importieren"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:77
+msgid "Select your settings file and click on \"Import settings\"."
+msgstr ""
+"Wähle deine Einstellungsdatei aus und klicke auf \"Einstellungen importieren"
+"\"."
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:78
+msgid "Allowed filetypes: .json"
+msgstr "Zulässige Dateitypen: .json"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:87
+msgid "Settings file"
+msgstr "Konfigurationsdatei"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:100
+msgid "Export"
+msgstr "Export"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:103
+msgid "Export settings"
+msgstr "Export Einstellungen"
+
+#: lib/modules/sv_settings/lib/backend/tpl/tools.php:109
+msgid "Reset to factory settings"
+msgstr "Zurücksetzen auf Werkseinstellungen"
+
+#: lib/modules/sv_settings/sv_settings.php:17
+msgid "SV100 Settings Import/Export"
+msgstr "SV100-Einstellungen Import/Export"
+
+#: lib/modules/sv_settings/sv_settings.php:18
+msgid "Import and export SV100 Theme settings"
+msgstr "Importieren und Exportieren von SV100-Themeneinstellungen"
+
+#: lib/modules/sv_settings/sv_settings.php:65
+msgid "Successfully reseted all settings."
+msgstr "Alle Einstellungen wurden erfolgreich zurückgesetzt."
+
 #. Plugin URI of the plugin/theme
 msgid "https://straightvisions.com/"
 msgstr "https://straightvisions.com/"
@@ -525,3 +600,9 @@ msgstr "https://straightvisions.com/"
 #. Author URI of the plugin/theme
 msgid "https://straightvisions.com"
 msgstr "https://straightvisions.com"
+
+#~ msgid "Settings Import/Export"
+#~ msgstr "Konfiguration Import/Export"
+
+#~ msgid "Import and export your settings"
+#~ msgstr "Importiere und exportiere deine Einstellungen"

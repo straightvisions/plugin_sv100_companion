@@ -6,8 +6,8 @@
 	}
 	
 	class init extends \sv_core\core_plugin {
-		const version = 1405;
-		const version_core_match = 4013;
+		const version = 1407;
+		const version_core_match = 4016;
 		
 		public function load(){
 			if(!$this->setup( __NAMESPACE__, __FILE__ )){
