@@ -5,7 +5,7 @@ Tags: sv100, pagespeed, seo, companion-plugin
 Requires PHP: 7.0
 Requires at least: 5.0
 Tested up to: 5.2
-Stable tag: 1.4.06
+Stable tag: 1.4.07
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -35,6 +35,10 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 
 == Changelog ==
 
+= 1.4.07 =
+* update core
+* add SV100 settings import/export
+
 = 1.4.06 =
 * update core
 * add css lazyload
@@ -56,6 +60,14 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 Initial Release
 
 == Upgrade Notice ==
+
+= 1.4.07 =
+* update core
+* add SV100 settings import/export
+
+= 1.4.06 =
+* update core
+* add css lazyload
 
 = 1.4.05 =
 * update core
