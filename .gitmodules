@@ -13,3 +13,6 @@
 [submodule "lib/modules/sv_settings"]
 	path = lib/modules/sv_settings
 	url = ../module_sv_settings
+[submodule "lib/modules/sv_categories"]
+	path = lib/modules/sv_categories
+	url = ../module_sv_categories.git
