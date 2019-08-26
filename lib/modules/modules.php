@@ -10,6 +10,7 @@
 			$this->sv_footer_credits->init();
 			$this->sv_human_time->init();
 			$this->sv_settings->init();
+			$this->sv_categories->init();
 			
 			$this->freemius->init();
 			
