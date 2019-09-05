@@ -36,6 +36,7 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 == Changelog ==
 
 = 1.4.09 =
+* add category sorting options
 * MIGRATE - SV100 - Settings Page
 
 = 1.4.08 =
@@ -68,34 +69,8 @@ Initial Release
 == Upgrade Notice ==
 
 = 1.4.09 =
+* add category sorting options
 * MIGRATE - SV100 - Settings Page
-
-= 1.4.08 =
-* BUG - FIX - settings export
-
-= 1.4.07 =
-* update core
-* add SV100 settings import/export
-
-= 1.4.06 =
-* update core
-* add css lazyload
-
-= 1.4.05 =
-* update core
-* add css lazyload
-
-= 1.4.04 =
-* update core
-* add css lazyload
-
-= 1.4.02 =
-* add support links
-* add footer settings
-* add relative time feature
-
-= 1.4.00 =
-Initial Release
 
 == Missing a feature? ==
 
