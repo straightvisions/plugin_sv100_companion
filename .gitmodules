@@ -16,3 +16,6 @@
 [submodule "lib/modules/sv_categories"]
 	path = lib/modules/sv_categories
 	url = ../module_sv_categories.git
+[submodule "lib/modules/sv_wp_rocket"]
+	path = lib/modules/sv_wp_rocket
+	url = ../module_sv_wp_rocket

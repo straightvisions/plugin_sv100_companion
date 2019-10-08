@@ -35,6 +35,10 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 
 == Changelog ==
 
+= 1.4.10 =
+* update core
+* FEAT - ADD - wp-rocket lazy load threshold
+
 = 1.4.09 =
 * add category sorting options
 * MIGRATE - SV100 - Settings Page
