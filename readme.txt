@@ -72,9 +72,9 @@ Initial Release
 
 == Upgrade Notice ==
 
-= 1.4.09 =
-* add category sorting options
-* MIGRATE - SV100 - Settings Page
+= 1.4.10 =
+* update core
+* FEAT - ADD - wp-rocket lazy load threshold
 
 == Missing a feature? ==
 
