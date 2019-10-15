@@ -35,6 +35,9 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 
 == Changelog ==
 
+= 1.4.11 =
+* FEAT - ADD - SVG Support Style Loading
+
 = 1.4.10 =
 * update core
 * FEAT - ADD - wp-rocket lazy load threshold
@@ -72,9 +75,8 @@ Initial Release
 
 == Upgrade Notice ==
 
-= 1.4.10 =
-* update core
-* FEAT - ADD - wp-rocket lazy load threshold
+= 1.4.11 =
+* FEAT - ADD - SVG Support Style Loading
 
 == Missing a feature? ==
 

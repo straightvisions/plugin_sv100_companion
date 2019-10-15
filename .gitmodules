@@ -19,3 +19,6 @@
 [submodule "lib/modules/sv_wp_rocket"]
 	path = lib/modules/sv_wp_rocket
 	url = ../module_sv_wp_rocket
+[submodule "lib/modules/sv_svg_support"]
+	path = lib/modules/sv_svg_support
+	url = ../module_sv_svg_support

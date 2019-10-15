@@ -12,6 +12,7 @@
 			$this->sv_settings->init();
 			$this->sv_categories->init();
 			$this->sv_wp_rocket->init();
+			$this->sv_svg_support->init();
 			
 			$this->freemius->init();
 			
