@@ -5,7 +5,7 @@ Tags: sv100, pagespeed, seo, companion-plugin
 Requires PHP: 7.0
 Requires at least: 5.0
 Tested up to: 5.2
-Stable tag: 1.4.10
+Stable tag: 1.4.11
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
