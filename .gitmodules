@@ -22,3 +22,12 @@
 [submodule "lib/modules/sv_svg_support"]
 	path = lib/modules/sv_svg_support
 	url = ../module_sv_svg_support
+[submodule "lib/modules/sv_lightbox"]
+	path = lib/modules/sv_lightbox
+	url = ../module_sv_lightbox
+[submodule "lib/modules/sv_smooth_scrolling"]
+	path = lib/modules/sv_smooth_scrolling
+	url = ../module_sv_smooth_scrolling
+[submodule "lib/modules/sv_scroll_to_top"]
+	path = lib/modules/sv_scroll_to_top
+	url = ../module_sv_scroll_to_top

@@ -13,6 +13,9 @@
 			$this->sv_categories->init();
 			$this->sv_wp_rocket->init();
 			$this->sv_svg_support->init();
+			$this->sv_lightbox->init();
+			$this->sv_smooth_scrolling->init();
+			$this->sv_scroll_to_top->init();
 			
 			$this->freemius->init();
 			
