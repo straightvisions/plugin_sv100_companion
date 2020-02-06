@@ -35,6 +35,9 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 
 == Changelog ==
 
+= 1.4.13 =
+* update core
+
 = 1.4.12 =
 * update core
 
@@ -79,7 +82,7 @@ Initial Release
 
 == Upgrade Notice ==
 
-= 1.4.12 =
+= 1.4.13 =
 * update core
 
 == Missing a feature? ==
