@@ -6,8 +6,8 @@
 	}
 	
 	class init extends \sv_core\core_plugin {
-		const version = 1413;
-		const version_core_match = 4022;
+		const version				= 1413;
+		const version_core_match	= 4022;
 		
 		public function load(){
 			if(!$this->setup( __NAMESPACE__, __FILE__ )){
@@ -21,7 +21,6 @@
 
 			$this->set_section_title( $info['name'] );
 			$this->set_section_desc( $info['desc'] );
-
 			$this->set_section_privacy( '<p>' . $this->get_section_title() . __(' does not collect or share any data',  'sv100_companion').'</p>' );
 		}
 	}
