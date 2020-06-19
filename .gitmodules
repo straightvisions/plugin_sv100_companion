@@ -31,3 +31,6 @@
 [submodule "lib/modules/sv_scroll_to_top"]
 	path = lib/modules/sv_scroll_to_top
 	url = ../module_sv_scroll_to_top
+[submodule "lib/modules/sv_maintenance"]
+	path = lib/modules/sv_maintenance
+	url = ../module_sv_maintenance
