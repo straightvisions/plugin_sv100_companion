@@ -2,9 +2,9 @@
 Contributors: matthias-reuter, matthiasbathke, dennisheiden, adrianchudzynski
 Donate link: https://straightvisions.com
 Tags: sv100, pagespeed, seo, companion-plugin, sv100
-Requires PHP: 7.0
+Requires PHP: 7.3
 Requires at least: 5.0
-Tested up to: 5.3
+Tested up to: 5.5.0
 Stable tag: 1.4.12
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
@@ -14,7 +14,7 @@ This Plugin increases your PageSpeed even further. It is optimized to work well 
 == Description ==
 
 = Requires: =
-* PHP 7.0 or higher
+* PHP 7.3 or higher
 * WordPress 5.0.x or higher
 
 = Plugin Description =
