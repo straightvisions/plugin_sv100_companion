@@ -5,7 +5,7 @@ Tags: sv100, pagespeed, seo, companion-plugin, sv100
 Requires PHP: 7.3
 Requires at least: 5.0
 Tested up to: 5.5.0
-Stable tag: 1.4.12
+Stable tag: 1.4.16
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -34,6 +34,10 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 3. You are using a caching plugin? Don't forget to flush caches now.
 
 == Changelog ==
+
+= 1.4.16 =
+* update core
+* FEAT - ADD - PREVENT FOUC
 
 = 1.4.13 =
 * update core
@@ -82,8 +86,9 @@ Initial Release
 
 == Upgrade Notice ==
 
-= 1.4.13 =
+= 1.4.16 =
 * update core
+* FEAT - ADD - PREVENT FOUC
 
 == Missing a feature? ==
 
