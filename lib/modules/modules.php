@@ -17,6 +17,7 @@
 			$this->sv_smooth_scrolling->init();
 			$this->sv_scroll_to_top->init();
 			$this->sv_maintenance->init();
+			$this->sv_featured_image->init();
 			
 			$this->freemius->init();
 			
