@@ -1,5 +1,5 @@
 === SV100 Companion ===
-Contributors: matthias-reuter, matthiasbathke, dennisheiden, adrianchudzynski
+Contributors: matthias-reuter, matthiasbathke, dennisheiden
 Donate link: https://straightvisions.com
 Tags: sv100, pagespeed, seo, companion-plugin, sv100
 Requires PHP: 7.3
