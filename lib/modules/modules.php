@@ -18,6 +18,7 @@
 			$this->sv_scroll_to_top->init();
 			$this->sv_maintenance->init();
 			$this->sv_planet_charts->init();
+			$this->sv_gutenberg->init();
 			
 			$this->freemius->init();
 			
