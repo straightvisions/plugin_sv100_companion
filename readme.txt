@@ -35,6 +35,9 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 
 == Changelog ==
 
+= 1.6.00 =
+* update core
+
 = 1.5.14 =
 * Add Support for Planet Charts
 
@@ -108,8 +111,8 @@ Initial Release
 
 == Upgrade Notice ==
 
-= 1.5.14 =
-* Add Support for Planet Charts
+= 1.6.00 =
+* update core
 
 == Missing a feature? ==
 
