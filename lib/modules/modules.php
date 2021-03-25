@@ -19,6 +19,8 @@
 			$this->sv_maintenance->init();
 			$this->sv_planet_charts->init();
 			$this->sv_gutenberg->init();
+			$this->sv_gutenslider->init();
+			$this->sv_accordion_block->init();
 			
 			$this->freemius->init();
 			
