@@ -9,6 +9,13 @@
 				echo $module->get_setting('show_link_manage_reusable_blocks')->form();
 			?>
         </div>
+
+  
+        <div class="sv_setting_flex">
+			<?php
+				echo $module->get_setting('show_gutenberg_widget_screen')->form();
+			?>
+        </div>
 		<?php
 	}
 ?>

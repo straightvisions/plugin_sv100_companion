@@ -29,6 +29,12 @@
 					'read', 'edit.php?post_type=wp_block', '', '', 21 );
 			}
 			
+			if(is_admin() && $this->get_setting( 'show_gutenberg_widget_screen' )->get_data()) {
+				add_theme_support( 'widgets-block-editor' );
+			}else{
+				remove_theme_support( 'widgets-block-editor' );
+			}
+			
 			return $this;
 		}
 
@@ -38,6 +44,13 @@
 			     ->set_title( __( 'Reusable blocks admin menu entry', 'sv100_companion' ) )
 			     ->set_description( __( 'Show manage reusable blocks link in backend menu.', 'sv100_companion' ) )
 			     ->load_type( 'checkbox' );
+			
+			$this->get_setting( 'show_gutenberg_widget_screen' )
+			     ->set_title( __( 'Block Editor in widget screen', 'sv100_companion' ) )
+			     ->set_description( __( 'Enables / Disables Block Editor in widget screen', 'sv100_companion' ) )
+			     ->set_default_value(true)
+			     ->load_type( 'checkbox' );
+			
 			
 			return $this;
 		}
