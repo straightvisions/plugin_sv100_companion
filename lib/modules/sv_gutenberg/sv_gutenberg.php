@@ -46,9 +46,9 @@
 			     ->load_type( 'checkbox' );
 			
 			$this->get_setting( 'show_gutenberg_widget_screen' )
-			     ->set_title( __( 'Block Editor in widget screen', 'sv100_companion' ) )
+			     ->set_title( __( 'Show Block Editor in widget screen (Experimental!)', 'sv100_companion' ) )
 			     ->set_description( __( 'Enables / Disables Block Editor in widget screen', 'sv100_companion' ) )
-			     ->set_default_value(true)
+			     ->set_default_value(false)
 			     ->load_type( 'checkbox' );
 			
 			
