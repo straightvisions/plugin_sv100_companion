@@ -43,6 +43,10 @@
 				return $this;
 			}
 
+			if(!\WP_Block_Type_Registry::get_instance()->is_registered( 'eedee/block-gutenslider' )){
+				return $this;
+			}
+
 			wp_dequeue_script('eedee-gutenslider-slick-js');
 			wp_dequeue_script('eedee-gutenslider-js');
 			wp_dequeue_script('eedee-gutenslider-block-js');

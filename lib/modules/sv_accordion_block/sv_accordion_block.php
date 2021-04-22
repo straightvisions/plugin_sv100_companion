@@ -34,6 +34,10 @@
 				return $this;
 			}
 
+			if(!\WP_Block_Type_Registry::get_instance()->is_registered( 'pb/accordion-item' )){
+				return $this;
+			}
+
 			unregister_block_type( 'pb/accordion-item');
 
 			wp_dequeue_style('pb-accordion-blocks-style');
