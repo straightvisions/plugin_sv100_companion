@@ -1,1 +1,0 @@
-sv_woo_paypalplus

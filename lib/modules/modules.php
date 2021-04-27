@@ -21,6 +21,7 @@
 			$this->load_module('sv_gutenberg');
 			$this->load_module('sv_gutenslider');
 			$this->load_module('sv_accordion_block');
+			$this->load_module('sv_woocommerce');
 			$this->load_module('freemius');
 
 			add_action('init', array($this, 'wp_init'));
