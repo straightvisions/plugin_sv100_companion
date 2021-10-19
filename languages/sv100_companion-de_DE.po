@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SV100 Companion\n"
 "POT-Creation-Date: 2021-10-19 15:16+0200\n"
-"PO-Revision-Date: 2021-10-19 15:17+0200\n"
+"PO-Revision-Date: 2021-10-19 17:33+0200\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: Matthias Reuter <info@straightvisions.com>\n"
 "Language: de_DE\n"
@@ -993,7 +993,7 @@ msgstr "An diese Adresse werden Wartungs-E-Mails gesendet."
 
 #: lib/modules/sv_planet_charts/sv_planet_charts.php:17
 msgid "Planet Charts"
-msgstr "Planetenkarten"
+msgstr "Planet Charts"
 
 #: lib/modules/sv_planet_charts/sv_planet_charts.php:18
 msgid "Tweaks for Planet Charts"
