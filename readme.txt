@@ -4,7 +4,7 @@ Donate link: https://straightvisions.com
 Tags: sv100, pagespeed, seo, companion-plugin, sv100
 Requires PHP: 7.3
 Requires at least: 5.3.2
-Tested up to: 5.8.0
+Tested up to: 5.8.1
 Stable tag: 1.8.00
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
@@ -119,8 +119,10 @@ Initial Release
 
 == Upgrade Notice ==
 
-= 1.7.00 =
-* update core
+= 1.8.00 =
+### Various
+
+* Core Update
 
 == Missing a feature? ==
 
