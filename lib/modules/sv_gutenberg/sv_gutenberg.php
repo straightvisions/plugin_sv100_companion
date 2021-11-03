@@ -27,14 +27,6 @@
 			if(is_admin() && $this->get_setting( 'show_link_manage_reusable_blocks' )->get_data()) {
 				add_menu_page( __( 'Reusable Blocks', 'sv100_companion' ), __( 'Reusable Blocks', 'sv100_companion' ),
 					'read', 'edit.php?post_type=wp_block', '', '', 21 );
-				
-				
-				$this->get_script( 'gutenberg_editor_fixes' )
-				     ->set_is_gutenberg()
-				     ->set_is_enqueued()
-				     ->set_path( 'lib/backend/css/fixes.css' );
-	
-				
 			}
 			
 			return $this;
@@ -49,5 +41,4 @@
 			
 			return $this;
 		}
-	
 	}
