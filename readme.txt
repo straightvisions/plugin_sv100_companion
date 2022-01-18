@@ -19,9 +19,11 @@ This Plugin increases your PageSpeed even further. It is optimized to work well 
 
 = Plugin Description =
 
-This Plugin increases your PageSpeed even further. It is optimized to work well with our SV100 Theme.
+We do not like multipurpose plugins. However, as a WordPress agency, we regularly develop little helpers that noticeably relieve our everyday life, but would be too small on their own to justify their own plugin.
 
-While we don't like multipurpose plugins, this helper plugin allows several opt-in tweaks to improve PageSpeed and several third party plugins.
+Our SV100 Companion Plugin offers numerous features that can complement our products, extend or enhance third-party plugins and improve the PageSpeed of your website.
+
+Each feature can be activated individually and is only loaded when needed. We refrain from using jQuery so that the frontend scripts are as small, efficient and fast to load as possible.
 
 == Features ==
 
@@ -42,15 +44,6 @@ While we don't like multipurpose plugins, this helper plugin allows several opt-
 = SV Settings Importer/Exporter =
 * Import/Export Settings for all our plugins and our SV100 Theme at once
 
-= WP Rocket =
-* Improves a third party plugin
-* Set Threshold for Lazy Loading
-* Activate Lazyloading for HTML5-Video-Elements
-
-= SVG Support =
-* Improves a third party plugin
-* Load CSS inline
-
 = Lightbox =
 * Enables a lightbox for links to images and videos
 
@@ -60,33 +53,40 @@ While we don't like multipurpose plugins, this helper plugin allows several opt-
 = Scroll to Top =
 * Enables a Button to allow users to scroll to top
 
+= WP Block Editor (Gutenberg) =
+* Add Menu Entry for list and managing reusable Blocks
+
 = Maintenance =
 * Change WordPress Recovery Mode E-Mail-Address
 
-= Planet Charts =
-* Improves a third party plugin
-* Load Assets on demand only (when block is active on a page)
-
-= Gutenberg =
-* Add Menu Entry for list and managing reusable Blocks
-
-= Accordion Block =
-* Improves a third party plugin
-* Load Assets on demand only (when block is active on a page)
-
-= WooCommerce =
-* Improves a third party plugin
-* Load Assets on demand only (when block is active on a page)
-
-= Yoast SEO =
-* Improves a third party plugin
-* Display FAQ Block as Accordion
-
-= SV100 =
+= <a href="https://straightvisions.com/en/products/sv100/">SV100</a> =
 * Extra Settings for our PageSpeed 100 WordPress Theme
 * Change or Disable Footer Credits
 
-= Team =
+== Third Party Plugin Improvements ==
+
+= <a href="https://wordpress.org/plugins/accordion-blocks/">Accordion Blocks</a> =
+* Load Assets on demand only (when block is active on a page)
+
+= <a href="https://codecanyon.net/item/planet-charts-a-chart-block-type-for-the-gutenberg-editor/22418253">Planet Charts</a> =
+* Load Assets on demand only (when block is active on a page)
+
+= <a href="https://wordpress.org/plugins/svg-support/">SVG Support</a> =
+* Improves a third party plugin
+* Load CSS inline
+
+= <a href="https://wp-rocket.me/">WP Rocket</a> =
+* Improves a third party plugin
+* Set Threshold for Lazy Loading
+* Activate Lazyloading for HTML5-Video-Elements
+
+= <a href="https://wordpress.org/plugins/woocommerce/">WooCommerce</a> =
+* Load Assets on demand only (when block is active on a page)
+
+= <a href="https://wordpress.org/plugins/wordpress-seo/">Yoast SEO</a> =
+* Display FAQ Block as Accordion
+
+== Team ==
 
 * Developed and maintenanced by <a href="https://straightvisions.com">straightvisions GmbH</a>
 
