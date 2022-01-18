@@ -72,11 +72,9 @@ Each feature can be activated individually and is only loaded when needed. We re
 * Load Assets on demand only (when block is active on a page)
 
 = <a href="https://wordpress.org/plugins/svg-support/">SVG Support</a> =
-* Improves a third party plugin
 * Load CSS inline
 
 = <a href="https://wp-rocket.me/">WP Rocket</a> =
-* Improves a third party plugin
 * Set Threshold for Lazy Loading
 * Activate Lazyloading for HTML5-Video-Elements
 
