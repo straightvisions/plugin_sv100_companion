@@ -1,0 +1,37 @@
+.wp-block-yoast-faq-block .schema-faq-answer{
+	max-height:0;
+	transform: scaleY(0);
+	transform-origin: top;
+	transition: opacity 0.25s ease;
+	height: 0;
+	overflow: hidden;
+	opacity: 0;
+}
+.wp-block-yoast-faq-block .schema-faq-section[aria-expanded="true"] .schema-faq-answer{
+	max-height:100%;
+	overflow: visible;
+
+	transform: scaleY(1);
+	height: 100%;
+	opacity: 1;
+}
+.wp-block-yoast-faq-block .schema-faq-question {
+	display: flex;
+	cursor: pointer;
+	justify-content:space-between;
+}
+.wp-block-yoast-faq-block .schema-faq-question:after{
+	content: '';
+	display: block;
+	height: 20px;
+	width: 20px;
+	-webkit-mask-size: 100%;
+	-webkit-mask-position: center;
+	-webkit-mask-repeat: no-repeat;
+	transition: -webkit-transform .3s ease-in-out;
+	-webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE1IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEuNSAxTDcuNSA3TDEzLjUgMSIgc3Ryb2tlPSIjMEUzRjMxIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==);
+	background-color: currentColor;
+}
+.wp-block-yoast-faq-block .schema-faq-section[aria-expanded="true"] .schema-faq-question:after {
+	-webkit-transform: rotate(180deg);
+}

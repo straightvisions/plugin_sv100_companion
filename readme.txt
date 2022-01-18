@@ -4,8 +4,8 @@ Donate link: https://straightvisions.com
 Tags: sv100, pagespeed, seo, companion-plugin, sv100
 Requires PHP: 7.3
 Requires at least: 5.3.2
-Tested up to: 5.8.1
-Stable tag: 1.8.00
+Tested up to: 5.8.3
+Stable tag: 1.8.10
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -21,6 +21,71 @@ This Plugin increases your PageSpeed even further. It is optimized to work well 
 
 This Plugin increases your PageSpeed even further. It is optimized to work well with our SV100 Theme.
 
+While we don't like multipurpose plugins, this helper plugin allows several opt-in tweaks to improve PageSpeed and several third party plugins.
+
+== Features ==
+
+= Cleanup =
+* deactivate jQuery Migrate
+* remove non critical meta data
+* remove Emoji Styles
+* Load WP-Mediastyles inline
+* Lazyload CSS files
+* Disable WP Embeds
+* Prevent FOUC
+* Add Missing ALT-Attributes to images when missing
+* Remove Type-Attributes from style- and script-tags
+
+= Relative Times & Dates =
+* Show relative date strings for posts and comments for a specific range in the past
+
+= SV Settings Importer/Exporter =
+* Import/Export Settings for all our plugins and our SV100 Theme at once
+
+= WP Rocket =
+* Improves a third party plugin
+* Set Threshold for Lazy Loading
+* Activate Lazyloading for HTML5-Video-Elements
+
+= SVG Support =
+* Improves a third party plugin
+* Load CSS inline
+
+= Lightbox =
+* Enables a lightbox for links to images and videos
+
+= Smooth Scrolling =
+* Enable smoother Scrolling on a website
+
+= Scroll to Top =
+* Enables a Button to allow users to scroll to top
+
+= Maintenance =
+* Change WordPress Recovery Mode E-Mail-Address
+
+= Planet Charts =
+* Improves a third party plugin
+* Load Assets on demand only (when block is active on a page)
+
+= Gutenberg =
+* Add Menu Entry for list and managing reusable Blocks
+
+= Accordion Block =
+* Improves a third party plugin
+* Load Assets on demand only (when block is active on a page)
+
+= WooCommerce =
+* Improves a third party plugin
+* Load Assets on demand only (when block is active on a page)
+
+= Yoast SEO =
+* Improves a third party plugin
+* Display FAQ Block as Accordion
+
+= SV100 =
+* Extra Settings for our PageSpeed 100 WordPress Theme
+* Change or Disable Footer Credits
+
 = Team =
 
 * Developed and maintenanced by <a href="https://straightvisions.com">straightvisions GmbH</a>
@@ -35,10 +100,14 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 
 == Changelog ==
 
-= 1.8.00 =
-### Various
+= 1.8.10 =
+* Feature removed: Tweaks for Gutenslider due to improvements of original plugin
+* Feature added: Yoast SEO FAQ Block: Accordion Feature
+* update core
 
-* Core Update
+= 1.8.00 =
+* Features improved: jQuery Dependency removed due to conversion to VanillaJS
+* update core
 
 = 1.7.00 =
 * update core
@@ -119,10 +188,10 @@ Initial Release
 
 == Upgrade Notice ==
 
-= 1.8.00 =
-### Various
-
-* Core Update
+= 1.8.10 =
+* Feature removed: Tweaks for Gutenslider due to improvements of original plugin
+* Feature added: Yoast SEO FAQ Block: Accordion Feature
+* update core
 
 == Missing a feature? ==
 
