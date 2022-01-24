@@ -5,7 +5,7 @@ Tags: sv100, pagespeed, seo, companion-plugin, sv100
 Requires PHP: 7.3
 Requires at least: 5.3.2
 Tested up to: 5.8.3
-Stable tag: 1.8.10
+Stable tag: 1.8.11
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -98,6 +98,9 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 
 == Changelog ==
 
+= 1.8.11 =
+* Feature improved: Smooth Scrolling respects sticky/fixed areas for offset calculation
+
 = 1.8.10 =
 * Feature removed: Tweaks for Gutenslider due to improvements of original plugin
 * Feature added: Yoast SEO FAQ Block: Accordion Feature
@@ -186,10 +189,8 @@ Initial Release
 
 == Upgrade Notice ==
 
-= 1.8.10 =
-* Feature removed: Tweaks for Gutenslider due to improvements of original plugin
-* Feature added: Yoast SEO FAQ Block: Accordion Feature
-* update core
+= 1.8.11 =
+* Feature improved: Smooth Scrolling respects sticky/fixed areas for offset calculation
 
 == Missing a feature? ==
 
