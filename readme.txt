@@ -5,7 +5,7 @@ Tags: sv100, pagespeed, seo, companion-plugin, sv100
 Requires PHP: 7.3
 Requires at least: 5.3.2
 Tested up to: 5.8.3
-Stable tag: 1.8.11
+Stable tag: 1.8.12
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -63,6 +63,9 @@ Each feature can be activated individually and is only loaded when needed. We re
 * Extra Settings for our PageSpeed 100 WordPress Theme
 * Change or Disable Footer Credits
 
+= Widgets Editor Screen =
+* Enable Wide Screen Support
+
 == Third Party Plugin Improvements ==
 
 = <a href="https://wordpress.org/plugins/accordion-blocks/">Accordion Blocks</a> =
@@ -97,6 +100,9 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 3. You are using a caching plugin? Don't forget to flush caches now.
 
 == Changelog ==
+
+= 1.8.12 =
+* Feature added: Enable Wide Screen Support for Widgets Editor Screen
 
 = 1.8.11 =
 * Feature improved: Smooth Scrolling respects sticky/fixed areas for offset calculation
@@ -189,8 +195,8 @@ Initial Release
 
 == Upgrade Notice ==
 
-= 1.8.11 =
-* Feature improved: Smooth Scrolling respects sticky/fixed areas for offset calculation
+= 1.8.12 =
+* Feature added: Enable Wide Screen Support for Widgets Editor Screen
 
 == Missing a feature? ==
 

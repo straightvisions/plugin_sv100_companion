@@ -1,0 +1,17 @@
+#widgets-editor .edit-widgets-main-block-list > div{
+	width:90%;
+	max-width:90%;
+}
+
+#widgets-editor .edit-widgets-main-block-list > div > .wp-block-widget-area,
+#widgets-editor .edit-widgets-main-block-list > div > .wp-block-widget-area > .components-panel__body,
+#widgets-editor .edit-widgets-main-block-list > div > .wp-block-widget-area > .components-panel__body > .components-panel__body-title,
+#widgets-editor .edit-widgets-main-block-list > div > .wp-block-widget-area > .components-panel__body .editor-styles-wrapper
+{
+	max-width: 100%;
+	width:100%;
+}
+
+#widgets-editor .block-editor-block-list__block .block-list-appender{
+	position:relative;
+}

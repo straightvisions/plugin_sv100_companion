@@ -22,6 +22,7 @@
 			$this->load_module('sv_accordion_block');
 			$this->load_module('sv_woocommerce');
 			$this->load_module('sv_yoast_seo');
+			$this->load_module('sv_widgets_editor_screen');
 			$this->load_module('freemius');
 
 			add_action('init', array($this, 'wp_init'));
