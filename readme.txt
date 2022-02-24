@@ -102,6 +102,7 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 == Changelog ==
 
 = 1.8.12 =
+* Security Fix: Third Party Vendor Library
 * Feature added: Enable Wide Screen Support for Widgets Editor Screen
 
 = 1.8.11 =
@@ -196,6 +197,7 @@ Initial Release
 == Upgrade Notice ==
 
 = 1.8.12 =
+* Security Fix: Third Party Vendor Library
 * Feature added: Enable Wide Screen Support for Widgets Editor Screen
 
 == Missing a feature? ==
