@@ -20,6 +20,7 @@
 			$this->load_module('sv_planet_charts');
 			$this->load_module('sv_gutenberg');
 			$this->load_module('sv_accordion_block');
+			$this->load_module('sv_video_autoplay');
 			$this->load_module('sv_woocommerce');
 			$this->load_module('sv_yoast_seo');
 			$this->load_module('sv_widgets_editor_screen');
