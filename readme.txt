@@ -4,8 +4,8 @@ Donate link: https://straightvisions.com
 Tags: sv100, pagespeed, seo, companion-plugin, sv100
 Requires PHP: 7.3
 Requires at least: 5.3.2
-Tested up to: 5.9.0
-Stable tag: 1.8.12
+Tested up to: 5.9.3
+Stable tag: 1.8.13
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -101,6 +101,9 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 
 == Changelog ==
 
+= 1.8.13 =
+* update core
+
 = 1.8.12 =
 * Security Fix: Third Party Vendor Library
 * Feature added: Enable Wide Screen Support for Widgets Editor Screen
@@ -195,10 +198,7 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 Initial Release
 
 == Upgrade Notice ==
-
-= 1.8.12 =
-* Security Fix: Third Party Vendor Library
-* Feature added: Enable Wide Screen Support for Widgets Editor Screen
+* update core
 
 == Missing a feature? ==
 
