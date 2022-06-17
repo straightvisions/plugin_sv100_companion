@@ -1,16 +1,6 @@
 <?php
 	namespace sv100_companion;
-	
-	/**
-	 * @version         4.004
-	 * @author			straightvisions GmbH
-	 * @package			sv_100
-	 * @copyright		2017 straightvisions GmbH
-	 * @link			https://straightvisions.com
-	 * @since			1.0
-	 * @license			See license.txt or https://straightvisions.com
-	 */
-	
+
 	class sv_gutenberg extends modules {
 		public function init() {
 			$this->load_settings()
@@ -18,12 +8,14 @@
 			     ->set_section_title( __( 'Gutenberg', 'sv100_companion' ) )
 			     ->set_section_desc( __( 'Gutenberg Enhancements', 'sv100_companion' ) )
 			     ->set_section_type( 'settings' )
-				 ->set_section_template_path( $this->get_path( 'lib/backend/tpl/settings.php' ) )
 			     ->get_root()
 			     ->add_section( $this );
+
+			if($this->get_setting( 'remove_wp_render_layout_support_flag' )->get_data()){
+				$this->remove_wp_render_layout_support_flag();
+			}
 		}
-		
-		public function register_scripts(){
+		public function register_scripts(): sv_gutenberg{
 			if(is_admin() && $this->get_setting( 'show_link_manage_reusable_blocks' )->get_data()) {
 				add_menu_page( __( 'Reusable Blocks', 'sv100_companion' ), __( 'Reusable Blocks', 'sv100_companion' ),
 					'read', 'edit.php?post_type=wp_block', '', '', 21 );
@@ -31,14 +23,23 @@
 			
 			return $this;
 		}
-
-		
-		public function load_settings(){
+		public function load_settings(): sv_gutenberg{
 			$this->get_setting( 'show_link_manage_reusable_blocks' )
 			     ->set_title( __( 'Reusable blocks admin menu entry', 'sv100_companion' ) )
 			     ->set_description( __( 'Show manage reusable blocks link in backend menu.', 'sv100_companion' ) )
 			     ->load_type( 'checkbox' );
+
+			$this->get_setting( 'remove_wp_render_layout_support_flag' )
+			     ->set_title( __( 'Remove WP Render Layout Support Flag', 'sv100_companion' ) )
+			     ->set_description( __( 'Remove Custom Block CSS (.wp-containert-xxx)', 'sv100_companion' ) )
+			     ->load_type( 'checkbox' );
 			
+			return $this;
+		}
+		// @see https://fullsiteediting.com/lessons/how-to-remove-default-block-styles/#h-how-to-remove-the-inline-styles-on-the-front
+		public function remove_wp_render_layout_support_flag(): sv_gutenberg{
+			remove_filter( 'render_block', 'wp_render_layout_support_flag', 10, 2 );
+
 			return $this;
 		}
 	}

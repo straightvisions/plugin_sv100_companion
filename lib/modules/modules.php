@@ -2,9 +2,6 @@
 	namespace sv100_companion;
 	
 	class modules extends init {
-		public function __construct() {
-		
-		}
 		public function init() {
 			$this->load_module('sv_cleanup');
 			$this->load_module('sv_footer_credits');
@@ -24,12 +21,5 @@
 			$this->load_module('sv_yoast_seo');
 			$this->load_module('sv_widgets_editor_screen');
 			$this->load_module('freemius');
-
-			add_action('init', array($this, 'wp_init'));
-		}
-		public function wp_init(){
-			if($this->get_instance('sv100')){
-				$this->load_module('sv_footer_credits');
-			}
 		}
 	}

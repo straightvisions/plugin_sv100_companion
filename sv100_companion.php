@@ -1,6 +1,6 @@
 <?php
 /*
-Version: 1.9.00
+Version: 1.9.01
 Plugin Name: SV100 Companion
 Text Domain: sv100_companion
 Description: This Plugin increases your PageSpeed even further. It is optimized to work well with our SV100 Theme.
