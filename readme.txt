@@ -3,9 +3,9 @@ Contributors: matthias-reuter, matthiasbathke, dennisheiden
 Donate link: https://straightvisions.com
 Tags: sv100, pagespeed, seo, companion-plugin, sv100
 Requires PHP: 7.3
-Requires at least: 5.3.2
+Requires at least: 6.0.0
 Tested up to: 6.0.0
-Stable tag: 1.9.01
+Stable tag: 2.0.00
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -100,6 +100,9 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 3. You are using a caching plugin? Don't forget to flush caches now.
 
 == Changelog ==
+
+= 2.0.00 =
+* update core
 
 = 1.9.01 =
 * update core
@@ -209,9 +212,8 @@ Initial Release
 
 == Upgrade Notice ==
 
-= 1.9.01 =
+= 2.0.00 =
 * update core
-* Feature added: Allow to disable wp_render_layout_support_flag
 
 == Missing a feature? ==
 
