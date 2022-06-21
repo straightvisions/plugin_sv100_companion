@@ -39,6 +39,7 @@
 		// @see https://fullsiteediting.com/lessons/how-to-remove-default-block-styles/#h-how-to-remove-the-inline-styles-on-the-front
 		public function remove_wp_render_layout_support_flag(): sv_gutenberg{
 			remove_filter( 'render_block', 'wp_render_layout_support_flag', 10, 2 );
+			remove_filter( 'render_block', 'gutenberg_render_layout_support_flag', 10, 2 );
 
 			return $this;
 		}
