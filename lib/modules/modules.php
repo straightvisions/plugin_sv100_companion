@@ -7,7 +7,6 @@
 			$this->load_module('sv_footer_credits');
 			$this->load_module('sv_human_time');
 			$this->load_module('sv_settings');
-			$this->load_module('sv_categories');
 			$this->load_module('sv_wp_rocket');
 			$this->load_module('sv_svg_support');
 			$this->load_module('sv_lightbox');
