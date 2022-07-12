@@ -20,6 +20,7 @@
 			$this->load_module('sv_woocommerce');
 			$this->load_module('sv_yoast_seo');
 			$this->load_module('sv_widgets_editor_screen');
+			$this->load_module('sv_simply_schedule_appointments');
 			$this->load_module('freemius');
 		}
 	}
