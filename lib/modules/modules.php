@@ -4,7 +4,6 @@
 	class modules extends init {
 		public function init() {
 			$this->load_module('sv_cleanup');
-			$this->load_module('sv_footer_credits');
 			$this->load_module('sv_human_time');
 			$this->load_module('sv_settings');
 			$this->load_module('sv_wp_rocket');
