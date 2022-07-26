@@ -7,9 +7,6 @@
 [submodule "lib/modules/sv_human_time"]
 	path = lib/modules/sv_human_time
 	url = ../module_sv_human_time
-[submodule "lib/modules/sv_footer_credits"]
-	path = lib/modules/sv_footer_credits
-	url = ../module_sv_footer_credits
 [submodule "lib/modules/sv_settings"]
 	path = lib/modules/sv_settings
 	url = ../module_sv_settings
