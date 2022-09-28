@@ -4,7 +4,7 @@ Version: 2.0.00
 Plugin Name: SV100 Companion
 Text Domain: sv100_companion
 Description: This Plugin increases your PageSpeed even further. It is optimized to work well with our SV100 Theme.
-Plugin URI: https://straightvisions.com/
+Plugin URI: https://straightvisions.com
 Author: straightvisions GmbH
 Author URI: https://straightvisions.com
 Domain Path: /languages
