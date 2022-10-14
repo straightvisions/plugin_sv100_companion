@@ -47,6 +47,9 @@ Each feature can be activated individually and is only loaded when needed. We re
 = Lightbox =
 * Enables a lightbox for links to images and videos
 
+= Featured Image =
+* Set a fallback featured image
+
 = Smooth Scrolling =
 * Enable smoother Scrolling on a website
 
@@ -103,6 +106,7 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 
 = 2.0.00 =
 * update core
+* Feature added: Set a fallback featured image
 
 = 1.9.01 =
 * update core
@@ -214,6 +218,7 @@ Initial Release
 
 = 2.0.00 =
 * update core
+* Feature added: Set a fallback featured image
 
 == Missing a feature? ==
 
