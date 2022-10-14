@@ -28,3 +28,6 @@
 [submodule "lib/modules/sv_maintenance"]
 	path = lib/modules/sv_maintenance
 	url = ../module_sv_maintenance
+[submodule "lib/modules/sv_featured_image"]
+	path = lib/modules/sv_featured_image
+	url = ../module_sv_featured_image
