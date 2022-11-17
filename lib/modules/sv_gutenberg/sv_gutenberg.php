@@ -4,7 +4,6 @@
 	class sv_gutenberg extends modules {
 		public function init() {
 			$this->load_settings()
-			     ->register_scripts()
 			     ->set_section_title( __( 'Gutenberg', 'sv100_companion' ) )
 			     ->set_section_desc( __( 'Gutenberg Enhancements', 'sv100_companion' ) )
 			     ->set_section_type( 'settings' )
@@ -14,14 +13,13 @@
 			if($this->get_setting( 'remove_wp_render_layout_support_flag' )->get_data()){
 				$this->remove_wp_render_layout_support_flag();
 			}
-		}
-		public function register_scripts(): sv_gutenberg{
-			if(is_admin() && $this->get_setting( 'show_link_manage_reusable_blocks' )->get_data()) {
-				add_menu_page( __( 'Reusable Blocks', 'sv100_companion' ), __( 'Reusable Blocks', 'sv100_companion' ),
-					'read', 'edit.php?post_type=wp_block', '', '', 21 );
-			}
-			
-			return $this;
+
+			add_action('admin_init', function(){
+				if(is_admin() && $this->get_setting( 'show_link_manage_reusable_blocks' )->get_data()) {
+					add_menu_page( __( 'Reusable Blocks', 'sv100_companion' ), __( 'Reusable Blocks', 'sv100_companion' ),
+						'read', 'edit.php?post_type=wp_block', '', '', 21 );
+				}
+			});
 		}
 		public function load_settings(): sv_gutenberg{
 			$this->get_setting( 'show_link_manage_reusable_blocks' )
