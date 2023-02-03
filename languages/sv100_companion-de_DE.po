@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SV100 Companion\n"
-"POT-Creation-Date: 2022-01-18 14:58+0100\n"
-"PO-Revision-Date: 2022-01-18 15:00+0100\n"
+"POT-Creation-Date: 2023-02-03 12:24+0100\n"
+"PO-Revision-Date: 2023-02-03 12:24+0100\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: Matthias Reuter <info@straightvisions.com>\n"
 "Language: de_DE\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: sv100_companion.php\n"
@@ -25,165 +25,57 @@ msgstr ""
 msgid " does not collect or share any data"
 msgstr " sammelt und teilt keine Daten"
 
-#: lib/core_plugin/core/abstract.php:88
+#: lib/core_plugin/core/abstract.php:91
 msgid "Class"
 msgstr "Klasse"
 
-#: lib/core_plugin/core/abstract.php:90
+#: lib/core_plugin/core/abstract.php:93
 msgid "could not be loaded (tried to load class-file"
 msgstr "konnte nicht geladen werden (versucht, die Klassendatei zu laden"
 
-#: lib/core_plugin/core/abstract.php:162 lib/core_plugin/core/abstract.php:180
-#: lib/core_plugin/core/abstract.php:198
+#: lib/core_plugin/core/abstract.php:165 lib/core_plugin/core/abstract.php:183
+#: lib/core_plugin/core/abstract.php:201
 msgid "not defined"
 msgstr "nicht definiert"
 
-#: lib/core_plugin/core/abstract.php:286
+#: lib/core_plugin/core/abstract.php:289
 msgid "Configuration &amp; Settings"
 msgstr "Konfiguration &amp; Einstellungen"
 
-#: lib/core_plugin/core/abstract.php:287
+#: lib/core_plugin/core/abstract.php:290
 msgid "Helpful tools &amp; helper"
 msgstr "Hilfreiche Tools &amp; Helfer"
 
-#: lib/core_plugin/core/abstract.php:396
-#: lib/core_plugin/core/abstract_template_sv_archive.php:25
-#: lib/core_plugin/core/abstract_template_sv_content.php:25
+#: lib/core_plugin/core/abstract.php:399
 msgid "Common"
 msgstr "Allgemein"
 
-#: lib/core_plugin/core/abstract.php:706
+#: lib/core_plugin/core/abstract.php:709
 msgid "No Title defined."
 msgstr "Kein Titel definiert."
 
-#: lib/core_plugin/core/abstract.php:726
+#: lib/core_plugin/core/abstract.php:729
 msgid "No description defined."
 msgstr "Keine Beschreibung definiert."
 
-#: lib/core_plugin/core/abstract.php:736
+#: lib/core_plugin/core/abstract.php:739
 msgid "No privacy statement defined."
 msgstr "Keine Datenschutzerklärung definiert."
 
-#: lib/core_plugin/core/abstract.php:813
-#: lib/core_plugin/core/scripts/scripts.php:122
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:19
+#: lib/core_plugin/core/abstract.php:816
+#: lib/core_plugin/core/scripts/scripts.php:129
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:7
 #: lib/modules/sv_settings/lib/backend/tpl/tools.php:56
 #: lib/modules/sv_settings/lib/backend/tpl/tools.php:81
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: lib/core_plugin/core/abstract_template_sv_archive.php:29
-#: lib/core_plugin/core/abstract_template_sv_content.php:29
-#: lib/core_plugin/core/settings/modules/setting_group/setting_group.php:64
-msgid "Entry"
-msgstr "Eintrag"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:33
-#: lib/core_plugin/core/abstract_template_sv_content.php:33
-msgid "Empty"
-msgstr "Leer"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:37
-#: lib/core_plugin/core/abstract_template_sv_content.php:37
-msgid "Header"
-msgstr "Kopfbereich"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:41
-#: lib/core_plugin/core/abstract_template_sv_content.php:41
-msgid "Footer"
-msgstr "Fußzeile"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:45
-#: lib/core_plugin/core/abstract_template_sv_content.php:45
-msgid "Sidebar Top"
-msgstr "Seitenleiste Oben"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:49
-#: lib/core_plugin/core/abstract_template_sv_content.php:49
-msgid "Sidebar Right"
-msgstr "Sidebar rechts"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:53
-#: lib/core_plugin/core/abstract_template_sv_content.php:53
-msgid "Sidebar Bottom"
-msgstr "Seitenleiste Unten"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:57
-#: lib/core_plugin/core/abstract_template_sv_content.php:57
-msgid "Sidebar Left"
-msgstr "Sidebar links"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:61
-#: lib/core_plugin/core/abstract_template_sv_content.php:61
-msgid "Featured Image"
-msgstr "Beitragsbild"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:65
-#: lib/core_plugin/core/abstract_template_sv_content.php:65
-#: lib/modules/sv_categories/sv_categories.php:60
-msgid "Title"
-msgstr "Titel"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:69
-#: lib/core_plugin/core/abstract_template_sv_content.php:69
-msgid "Excerpt"
-msgstr "Auszug"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:73
-#: lib/core_plugin/core/abstract_template_sv_content.php:73
-msgid "Read More"
-msgstr "Weiterlesen"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:77
-#: lib/core_plugin/core/abstract_template_sv_content.php:77
-msgid "Author"
-msgstr "Autor"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:81
-#: lib/core_plugin/core/abstract_template_sv_content.php:81
-#: lib/modules/sv_categories/sv_categories.php:57
-msgid "Date"
-msgstr "Datum"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:85
-#: lib/core_plugin/core/abstract_template_sv_content.php:85
-msgid "Date Modified"
-msgstr "Datum letzte Bearbeitung"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:89
-#: lib/core_plugin/core/abstract_template_sv_content.php:89
-msgid "Categories"
-msgstr "Kategorien"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:287
-#: lib/core_plugin/core/abstract_template_sv_content.php:279
-msgid "Extra Styles"
-msgstr "Extra Styles"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:294
-#: lib/core_plugin/core/abstract_template_sv_content.php:286
-msgid "Style Label"
-msgstr "Beschriftung"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:295
-#: lib/core_plugin/core/abstract_template_sv_content.php:287
-msgid "A label to differentiate your Styles."
-msgstr "Eine Beschriftung, um deine Styles zu unterscheiden."
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:297
-#: lib/core_plugin/core/abstract_template_sv_content.php:289
-msgid "Label"
-msgstr "Beschriftung"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:303
-#: lib/core_plugin/core/abstract_template_sv_content.php:295
-msgid "Slug"
-msgstr "Slug"
-
-#: lib/core_plugin/core/abstract_template_sv_archive.php:304
-#: lib/core_plugin/core/abstract_template_sv_content.php:296
-msgid "This slug is used for the helper classes."
-msgstr "Dieser Slug wird für die Helferklassen verwendet."
+#: lib/core_plugin/core/abstract.php:1107
+#, php-format
+msgid "%s Minute"
+msgid_plural "%s Minutes"
+msgstr[0] "%s Minute"
+msgstr[1] "%s Minuten"
 
 #: lib/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:3
 msgid "Start"
@@ -209,7 +101,7 @@ msgstr "Über"
 
 #: lib/core_plugin/core/backend/tpl/about.php:10
 #: lib/core_plugin/core/info/backend/tpl/about.php:21
-#: lib/core_plugin/core_plugin.php:42 lib/core_plugin/core_plugin.php:43
+#: lib/core_plugin/core_plugin.php:66 lib/core_plugin/core_plugin.php:67
 msgid "Info"
 msgstr "Info"
 
@@ -315,53 +207,53 @@ msgstr "http://www.gnu.org/licenses/"
 msgid "Privacy Statement"
 msgstr "Datenschutzerklärung"
 
-#: lib/core_plugin/core/core.php:113
+#: lib/core_plugin/core/core.php:112
 msgid ""
 "Please check that all SV products are up to date. You may need to update "
 msgstr ""
 "Bitte überprüfe, dass alle SV Produkte auf dem aktuellen Stand sind. "
 "Folgende müssen möglicherweise aktualisiert werden "
 
-#: lib/core_plugin/core/core.php:114
+#: lib/core_plugin/core/core.php:113
 msgid "SV Core was loaded by"
 msgstr "SV Core wurde geladen von"
 
-#: lib/core_plugin/core/core.php:116
+#: lib/core_plugin/core/core.php:115
 msgid "with version:"
 msgstr "mit Version:"
 
-#: lib/core_plugin/core/core.php:117
+#: lib/core_plugin/core/core.php:116
 #, php-format
 msgid "but %s v%s requires core-version"
 msgstr "aber %s v%s benötigt Core-Version"
 
-#: lib/core_plugin/core/core.php:160 lib/core_plugin/core/core.php:166
-#: lib/core_plugin/core/core.php:303 lib/core_plugin/core/core.php:322
-#: lib/core_plugin/core/core.php:474
+#: lib/core_plugin/core/core.php:159 lib/core_plugin/core/core.php:165
+#: lib/core_plugin/core/core.php:302 lib/core_plugin/core/core.php:321
+#: lib/core_plugin/core/core.php:473
 msgid "Setting saved"
 msgstr "Einstellung gespeichert"
 
-#: lib/core_plugin/core/core.php:305
+#: lib/core_plugin/core/core.php:304
 msgid "Nonce check failed / Empty data."
 msgstr "Nonce-Prüfung fehlgeschlagen / Leere Daten."
 
-#: lib/core_plugin/core/core.php:313
+#: lib/core_plugin/core/core.php:312
 msgid "Nothing to update."
 msgstr "Nichts zu aktualisieren."
 
-#: lib/core_plugin/core/core.php:326
+#: lib/core_plugin/core/core.php:325
 msgid "You are unauthorized to perform this action."
 msgstr "Sie sind nicht berechtigt, diese Aktion durchzuführen."
 
-#: lib/core_plugin/core/core.php:332
+#: lib/core_plugin/core/core.php:331
 msgid "Nonce check cannot fail."
 msgstr "Nonce-Prüfung kann nicht fehlschlagen."
 
-#: lib/core_plugin/core/core.php:366
+#: lib/core_plugin/core/core.php:365
 msgid "Website enhanced by straightvisions.com"
 msgstr "Website enhanced by straightvisions.com"
 
-#: lib/core_plugin/core/core.php:437
+#: lib/core_plugin/core/core.php:436
 #: lib/core_plugin/core/info/backend/tpl/about.php:62
 msgid "Expert Mode"
 msgstr "Experten-Modus"
@@ -412,8 +304,8 @@ msgid "Active"
 msgstr "Aktiv"
 
 #: lib/core_plugin/core/info/backend/tpl/about.php:114
-#: lib/core_plugin/core/scripts/scripts.php:231
-#: lib/core_plugin/core/scripts/scripts.php:241
+#: lib/core_plugin/core/scripts/scripts.php:234
+#: lib/core_plugin/core/scripts/scripts.php:243
 msgid "Disabled"
 msgstr "Deaktiviert"
 
@@ -434,6 +326,7 @@ msgid "does not collect or share any data from clients or visitors."
 msgstr "sammelt oder teilt keine Daten von Kunden oder Gästen."
 
 #: lib/core_plugin/core/lib/tpl/settings/scripts_general.php:3
+#: lib/modules/sv_scroll_to_top/lib/tpl/settings/general.php:3
 msgid "General"
 msgstr "Allgemein"
 
@@ -441,35 +334,35 @@ msgstr "Allgemein"
 msgid "Scripts Overview"
 msgstr "Skriptübersicht"
 
-#: lib/core_plugin/core/scripts/scripts.php:50
+#: lib/core_plugin/core/scripts/scripts.php:51
 msgid "Scripts"
 msgstr "Skripte"
 
-#: lib/core_plugin/core/scripts/scripts.php:51
+#: lib/core_plugin/core/scripts/scripts.php:52
 msgid "Override Scripts Loading."
 msgstr "Überschreib das Ladeverhalten von Scripts."
 
-#: lib/core_plugin/core/scripts/scripts.php:113
+#: lib/core_plugin/core/scripts/scripts.php:120
 msgid "SV100"
 msgstr "SV100"
 
-#: lib/core_plugin/core/scripts/scripts.php:134
+#: lib/core_plugin/core/scripts/scripts.php:141
 msgid "Clear Cache"
 msgstr "Cache leeren"
 
-#: lib/core_plugin/core/scripts/scripts.php:195
+#: lib/core_plugin/core/scripts/scripts.php:198
 msgid "Flush cache for all CSS files"
 msgstr "Leere Cache für alle CSS Dateien"
 
-#: lib/core_plugin/core/scripts/scripts.php:196
+#: lib/core_plugin/core/scripts/scripts.php:199
 msgid "All cached CSS Files will be regenerated"
 msgstr "Alle gecachten CSS Dateien werden neu generiert"
 
-#: lib/core_plugin/core/scripts/scripts.php:201
+#: lib/core_plugin/core/scripts/scripts.php:204
 msgid "Disable all CSS per Default"
 msgstr "Deaktiviere standardmäßig das Laden von CSS"
 
-#: lib/core_plugin/core/scripts/scripts.php:202
+#: lib/core_plugin/core/scripts/scripts.php:205
 msgid ""
 "CSS enqueued will be disabled by default - you may override this later down "
 "below."
@@ -477,11 +370,11 @@ msgstr ""
 "CSS wird standardmäßig deaktiviert - du kannst das weiter unten jeweils "
 "überschreiben."
 
-#: lib/core_plugin/core/scripts/scripts.php:207
+#: lib/core_plugin/core/scripts/scripts.php:210
 msgid "Disable all JS per Default"
 msgstr "Deaktiviere standardmäßig das Laden von JS"
 
-#: lib/core_plugin/core/scripts/scripts.php:208
+#: lib/core_plugin/core/scripts/scripts.php:211
 msgid ""
 "JS enqueued will be disabled by default - you may override this later down "
 "below."
@@ -489,38 +382,41 @@ msgstr ""
 "JS wird standardmäßig deaktiviert - du kannst das weiter unten jeweils "
 "überschreiben."
 
-#: lib/core_plugin/core/scripts/scripts.php:233
-#: lib/core_plugin/core/scripts/scripts.php:239
+#: lib/core_plugin/core/scripts/scripts.php:236
+#: lib/core_plugin/core/scripts/scripts.php:241
 msgid "Inline"
 msgstr "Inline"
 
-#: lib/core_plugin/core/scripts/scripts.php:233
-#: lib/core_plugin/core/scripts/scripts.php:240
+#: lib/core_plugin/core/scripts/scripts.php:236
+#: lib/core_plugin/core/scripts/scripts.php:242
 msgid "Attached"
 msgstr "Angehängt"
 
-#: lib/core_plugin/core/scripts/scripts.php:238
-#: lib/modules/sv_categories/sv_categories.php:82
+#: lib/core_plugin/core/scripts/scripts.php:240
 msgid "Default"
 msgstr "Standard"
 
-#: lib/core_plugin/core/scripts/scripts.php:258
-#: lib/core_plugin/core/scripts/scripts.php:268
+#: lib/core_plugin/core/scripts/scripts.php:260
+#: lib/core_plugin/core/scripts/scripts.php:270
 msgid "Flush Cache"
 msgstr "Cache leeren"
 
-#: lib/core_plugin/core/scripts/scripts.php:259
-#: lib/core_plugin/core/scripts/scripts.php:269
+#: lib/core_plugin/core/scripts/scripts.php:261
+#: lib/core_plugin/core/scripts/scripts.php:271
 msgid "Cache Active"
 msgstr "Cache Aktiv"
 
-#: lib/core_plugin/core/scripts/scripts.php:523
+#: lib/core_plugin/core/scripts/scripts.php:558
 msgid "Script \""
 msgstr "Skript \""
 
 #: lib/core_plugin/core/settings/modules/setting_group/setting_group.php:51
 msgid "Add"
 msgstr "Hinzufügen"
+
+#: lib/core_plugin/core/settings/modules/setting_group/setting_group.php:64
+msgid "Entry"
+msgstr "Eintrag"
 
 #: lib/core_plugin/core/settings/modules/setting_group/setting_group.php:64
 msgid "Group #"
@@ -538,16 +434,16 @@ msgstr "Du brauchst mindestens"
 msgid "characters."
 msgstr "Zeichen."
 
-#: lib/core_plugin/core/settings/settings.php:605
+#: lib/core_plugin/core/settings/settings.php:620
 msgid "Save (classic)"
 msgstr "Speichern (klassisch)"
 
-#: lib/core_plugin/core/settings/settings.php:605
+#: lib/core_plugin/core/settings/settings.php:620
 msgid "Save (AJAX)"
 msgstr "Speichern (AJAX)"
 
-#: lib/core_plugin/core/settings/settings.php:762
-#: lib/core_plugin/core/settings/settings.php:805
+#: lib/core_plugin/core/settings/settings.php:777
+#: lib/core_plugin/core/settings/settings.php:820
 msgid "Settings Template not found: "
 msgstr "Template für Einstellungen nicht gefunden: "
 
@@ -555,7 +451,7 @@ msgstr "Template für Einstellungen nicht gefunden: "
 #: lib/core_plugin/core/settings/tpl/setting_border_tpl/border_color.php:20
 #: lib/core_plugin/core/settings/tpl/setting_box_shadow_tpl/color.php:11
 #: lib/core_plugin/core/settings/tpl/setting_box_shadow_tpl/color.php:13
-#: lib/core_plugin/core/settings/tpl/setting_color.php:9
+#: lib/core_plugin/core/settings/tpl/setting_color.php:19
 #: lib/core_plugin/core/settings/tpl/setting_font_tpl/color.php:5
 #: lib/core_plugin/core/settings/tpl/setting_font_tpl/color.php:8
 msgid "Toggle Color Picker"
@@ -645,73 +541,45 @@ msgstr "Keine Seite ausgewählt"
 msgid "Delete File"
 msgstr "Datei löschen"
 
-#: lib/core_plugin/core_plugin.php:31 lib/core_plugin/core_plugin.php:32
+#: lib/core_plugin/core_plugin.php:55 lib/core_plugin/core_plugin.php:56
 msgid "straightvisions"
 msgstr "straightvisions"
 
-#: lib/core_plugin/dependencies/sv_dependencies.php:43
+#: lib/core_plugin/dependencies/sv_dependencies.php:34
 msgid "You need to update your PHP version to run"
 msgstr ""
 "Du musst deine PHP Version aktualisieren, damit unsere Produkte funktionieren"
 
-#: lib/core_plugin/dependencies/sv_dependencies.php:45
+#: lib/core_plugin/dependencies/sv_dependencies.php:36
 msgid "Actual version is:"
 msgstr "Installierte Version:"
 
-#: lib/core_plugin/dependencies/sv_dependencies.php:46
+#: lib/core_plugin/dependencies/sv_dependencies.php:37
 msgid "required is"
 msgstr "Erforderlich"
 
-#: lib/core_plugin/dependencies/sv_dependencies.php:55
+#: lib/core_plugin/dependencies/sv_dependencies.php:46
 msgid "You need to install and activate our SV Core plugin to run"
 msgstr "Du musst unser SV Core Plugin installieren und aktivieren"
 
-#: lib/modules/sv_accordion_block/sv_accordion_block.php:17
+#: lib/modules/sv_accordion_block/sv_accordion_block.php:7
 msgid "Accordion Block"
 msgstr "Accordion Block"
 
-#: lib/modules/sv_accordion_block/sv_accordion_block.php:18
+#: lib/modules/sv_accordion_block/sv_accordion_block.php:8
 msgid "Tweaks for Accordion Block"
 msgstr "Verbesserungen für Accordion Block"
 
-#: lib/modules/sv_accordion_block/sv_accordion_block.php:51
-#: lib/modules/sv_planet_charts/sv_planet_charts.php:44
+#: lib/modules/sv_accordion_block/sv_accordion_block.php:41
+#: lib/modules/sv_planet_charts/sv_planet_charts.php:34
 msgid "Load Assets on Demand"
 msgstr "Assets bei Bedarf laden"
 
-#: lib/modules/sv_accordion_block/sv_accordion_block.php:52
-#: lib/modules/sv_planet_charts/sv_planet_charts.php:45
+#: lib/modules/sv_accordion_block/sv_accordion_block.php:42
+#: lib/modules/sv_planet_charts/sv_planet_charts.php:35
 msgid "Load Assets (CSS/JS) only, when Gutenberg Block is loaded on a page"
 msgstr ""
 "Nur Assets (CSS/JS) laden, wenn Gutenberg Block auf eine Seite geladen wird"
-
-#: lib/modules/sv_categories/sv_categories.php:53
-msgid "Order by"
-msgstr "Sortieren nach"
-
-#: lib/modules/sv_categories/sv_categories.php:66
-msgid "Order"
-msgstr "Sortierung"
-
-#: lib/modules/sv_categories/sv_categories.php:70
-msgid "Descending"
-msgstr "Absteigend"
-
-#: lib/modules/sv_categories/sv_categories.php:73
-msgid "Ascending"
-msgstr "Aufsteigend"
-
-#: lib/modules/sv_categories/sv_categories.php:79
-msgid "Template Style"
-msgstr "Vorlagen Style"
-
-#: lib/modules/sv_categories/sv_categories.php:103
-msgid "Page"
-msgstr "Seite"
-
-#: lib/modules/sv_categories/sv_categories.php:110
-msgid "--- Default Archive Index ---"
-msgstr "--- Standardarchivindex ---"
 
 #: lib/modules/sv_cleanup/lib/backend/tpl/settings.php:6
 msgid "Decrease PageLoad"
@@ -725,19 +593,19 @@ msgstr "Scriptloading verbessern"
 msgid "Optimize W3C Validation"
 msgstr "W3C Validität verbessern"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:17
+#: lib/modules/sv_cleanup/sv_cleanup.php:7
 msgid "Cleanup"
 msgstr "Aufräumen"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:18
+#: lib/modules/sv_cleanup/sv_cleanup.php:8
 msgid "Improve some WordPress Standards"
 msgstr "Verbessern Sie einige WordPress-Standards"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:93
+#: lib/modules/sv_cleanup/sv_cleanup.php:81
 msgid "Disable jQuery Migrate"
 msgstr "jQuery Migrate deaktiveren"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:94
+#: lib/modules/sv_cleanup/sv_cleanup.php:82
 msgid ""
 "In most cases, you will not need jQuery-Migrate. Disabling this script will "
 "reduce pageload and improve Pagespeed. Check for Javascript-Errors in "
@@ -748,11 +616,11 @@ msgstr ""
 "verbessert. Überprüfe auf Javascript-Fehler im Frontend, nachdem du diese "
 "Funktion aktiviert hast."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:98
+#: lib/modules/sv_cleanup/sv_cleanup.php:86
 msgid "Remove non-critical meta data"
 msgstr "Entfernen nicht kritischer Metadaten"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:99
+#: lib/modules/sv_cleanup/sv_cleanup.php:87
 msgid ""
 "Removes some lines of HTML-Meta-Data which are not critical for your site, "
 "but saves some byte of code in the frontend: rest_output_link_wp_head, "
@@ -764,22 +632,22 @@ msgstr ""
 "rest_output_link_wp_head, wp_oembed_add_discovery_links, rsd_link, "
 "wlwmanifest_link, wp_shortlink_wp_head, wp_generator"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:103
+#: lib/modules/sv_cleanup/sv_cleanup.php:91
 msgid "Removes Emoji Styles"
 msgstr "Entfernt Emoji Styles"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:104
+#: lib/modules/sv_cleanup/sv_cleanup.php:92
 msgid ""
 "Instead of loading those styles from WP, default browser emojis will be "
 "displayed"
 msgstr ""
 "Anstatt diese Stile aus WP zu laden, werden Standard-Browser-Emojis angezeigt"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:108
+#: lib/modules/sv_cleanup/sv_cleanup.php:96
 msgid "Load WP Media Styles inline"
 msgstr "Laden von WP-Medienstilen inline"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:109
+#: lib/modules/sv_cleanup/sv_cleanup.php:97
 msgid ""
 "To optimize your Pagespeed Score, you may need to load WP Media Styles "
 "inline if loaded. Activate this, if Pagespeed Test Tool says external WP "
@@ -790,11 +658,11 @@ msgstr ""
 "das Pagespeed Test Tool sagt, dass externe WP-Medienstile das Rendern "
 "blockieren."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:113
+#: lib/modules/sv_cleanup/sv_cleanup.php:101
 msgid "Lazyload attached CSS files"
 msgstr "Nachträgliches Laden (Lazyload) von angehängten CSS Dateien"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:114
+#: lib/modules/sv_cleanup/sv_cleanup.php:102
 #, php-format
 msgid ""
 "Attached CSS should be lazyloaded. Even with WP-Rocket this is not solved "
@@ -803,11 +671,11 @@ msgstr ""
 "Angehängtes CSS sollte nachträglich geladen werden. Selbst mit WP-Rocket ist "
 "es nicht komplett gelöst %1$s(Ticket)%2$s"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:121
+#: lib/modules/sv_cleanup/sv_cleanup.php:109
 msgid "Prevent FOUC"
 msgstr "FOUC verhindern"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:122
+#: lib/modules/sv_cleanup/sv_cleanup.php:110
 msgid ""
 "Content will be hidden until DOM is ready to prevent flash of unstyled "
 "content (FOUC). If there is any javascript-error on your site, this could "
@@ -820,11 +688,11 @@ msgstr ""
 "werden. Die Verwendung dieses Anti-FOUC-Features sollte vermieden werden, "
 "indem die Seitengröße reduziert und die CSS-Bereitstellung optimiert wird."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:126
+#: lib/modules/sv_cleanup/sv_cleanup.php:114
 msgid "Add alt-attributes to images if missing"
 msgstr "Hinzufügen von Alt-Attributen zu Bildern, wenn sie fehlen"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:127
+#: lib/modules/sv_cleanup/sv_cleanup.php:115
 msgid ""
 "No image should be without alt-attribute, so if there are some without one, "
 "an empty one will be added."
@@ -832,11 +700,11 @@ msgstr ""
 "Kein Bild sollte ohne alt-Attribut sein, also wenn es einige ohne gibt, wird "
 "ein leeres hinzugefügt."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:131
+#: lib/modules/sv_cleanup/sv_cleanup.php:119
 msgid "Remove type-attributes from style and script tags"
 msgstr "Entfernen von Typattributen aus Style- und Script-Tags"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:132
+#: lib/modules/sv_cleanup/sv_cleanup.php:120
 msgid ""
 "These are not needed for standard purposes anymore, W3C recommends to remove "
 "them if not needed. You will reduce your pageload as well."
@@ -844,79 +712,84 @@ msgstr ""
 "Diese werden für Standardzwecke nicht mehr benötigt, W3C empfiehlt, sie zu "
 "entfernen, wenn nicht benötigt. Auch der Pageload wird so reduziert."
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:136
+#: lib/modules/sv_cleanup/sv_cleanup.php:124
 msgid "Disable WP Embed"
 msgstr "WP-Einbettung deaktivieren"
 
-#: lib/modules/sv_cleanup/sv_cleanup.php:137
+#: lib/modules/sv_cleanup/sv_cleanup.php:125
 msgid ""
 "For PageSpeed or GDPR Purposes you may want to disable WP Embed feature."
 msgstr ""
 "Für PageSpeed- oder DSGVO-Zwecke können Sie die WP-Einbettungsfunktion "
 "deaktivieren."
 
-#: lib/modules/sv_footer_credits/sv_footer_credits.php:21
-msgid "Footer Credits"
-msgstr "Fußzeilen Credits"
+#: lib/modules/sv_featured_image/sv_featured_image.php:6
+msgid "SV Featured Image"
+msgstr "Beitragsbild"
 
-#: lib/modules/sv_footer_credits/sv_footer_credits.php:22
-msgid "Adjust Footer Credit Settings for SV100 Theme"
-msgstr "Einstellen der Fußzeilencredits für das SV100 Theme"
+#: lib/modules/sv_featured_image/sv_featured_image.php:7
+msgid "Set a default thumbnail."
+msgstr "Lade ein Standard Beitragsbild hoch."
 
-#: lib/modules/sv_footer_credits/sv_footer_credits.php:33
-msgid "Disable credits footer at all."
-msgstr "Fußzeilencredits komplett deaktivieren."
+#: lib/modules/sv_featured_image/sv_featured_image.php:18
+msgid "Default thumbnail"
+msgstr "Standard Beitragsbild"
 
-#: lib/modules/sv_footer_credits/sv_footer_credits.php:38
-msgid "Set your own text for credits."
-msgstr "Eigenen Text für Credits festlegen."
+#: lib/modules/sv_featured_image/sv_featured_image.php:19
+msgid "Image will be used when posts or pages has no thumbnail set."
+msgstr ""
+"Das hochgeladene Bild wird verwendet, wenn der Beitrag kein Beitragsbild "
+"enthält."
 
-#: lib/modules/sv_gutenberg/lib/backend/tpl/settings.php:6
-#: lib/modules/sv_woocommerce/sv_woocommerce.php:8
-msgid "Tweaks"
-msgstr "Optimierungen"
-
-#: lib/modules/sv_gutenberg/sv_gutenberg.php:18
+#: lib/modules/sv_gutenberg/sv_gutenberg.php:7
 msgid "Gutenberg"
 msgstr "Gutenberg"
 
-#: lib/modules/sv_gutenberg/sv_gutenberg.php:19
+#: lib/modules/sv_gutenberg/sv_gutenberg.php:8
 msgid "Gutenberg Enhancements"
 msgstr "Gutenberg-Erweiterungen"
 
-#: lib/modules/sv_gutenberg/sv_gutenberg.php:28
+#: lib/modules/sv_gutenberg/sv_gutenberg.php:19
 msgid "Reusable Blocks"
 msgstr "Globale Blöcke"
 
-#: lib/modules/sv_gutenberg/sv_gutenberg.php:38
+#: lib/modules/sv_gutenberg/sv_gutenberg.php:26
 msgid "Reusable blocks admin menu entry"
 msgstr "Wiederverwendbare Blöcke Admin-Menüeintrag"
 
-#: lib/modules/sv_gutenberg/sv_gutenberg.php:39
+#: lib/modules/sv_gutenberg/sv_gutenberg.php:27
 msgid "Show manage reusable blocks link in backend menu."
 msgstr "Link \"Wiederverwendbare Blöcke verwalten\" im Backend-Menü anzeigen."
 
-#: lib/modules/sv_human_time/sv_human_time.php:17
+#: lib/modules/sv_gutenberg/sv_gutenberg.php:31
+msgid "Remove WP Render Layout Support Flag"
+msgstr "Entferne WP Render Layout Support Flag"
+
+#: lib/modules/sv_gutenberg/sv_gutenberg.php:32
+msgid "Remove Custom Block CSS (.wp-containert-xxx)"
+msgstr "Entfernen von benutzerdefiniertem Block-CSS (.wp-containert-xxx)"
+
+#: lib/modules/sv_human_time/sv_human_time.php:7
 msgid "Relative Time and Dates"
 msgstr "Relative Zeit und Datumsangaben"
 
-#: lib/modules/sv_human_time/sv_human_time.php:18
+#: lib/modules/sv_human_time/sv_human_time.php:8
 msgid "Enable relative dateformats"
 msgstr "Relative Datumsformate aktivieren"
 
-#: lib/modules/sv_human_time/sv_human_time.php:34
+#: lib/modules/sv_human_time/sv_human_time.php:24
 msgid "Enables relative date format for all posts"
 msgstr "Aktiviert das relative Datumsformat für alle Beiträge"
 
-#: lib/modules/sv_human_time/sv_human_time.php:38
+#: lib/modules/sv_human_time/sv_human_time.php:28
 msgid "Enables relative date format for all comments"
 msgstr "Aktiviert das relative Datumsformat für alle Kommentare"
 
-#: lib/modules/sv_human_time/sv_human_time.php:42
+#: lib/modules/sv_human_time/sv_human_time.php:32
 msgid "Show Date Format"
 msgstr "Datumsformat anzeigen"
 
-#: lib/modules/sv_human_time/sv_human_time.php:43
+#: lib/modules/sv_human_time/sv_human_time.php:33
 msgid ""
 "Shows the date and time in the default WordPress format, when the time "
 "difference is higher than the set days. 0 = never"
@@ -924,40 +797,40 @@ msgstr ""
 "Zeigt das Datum und die Uhrzeit im Standard-WordPress-Format an, wenn der "
 "Zeitunterschied höher ist als die gesetzten Tage. 0 = nie"
 
-#: lib/modules/sv_human_time/sv_human_time.php:69
+#: lib/modules/sv_human_time/sv_human_time.php:59
 msgid "Starting date is needed!"
 msgstr "Startdatum ist erforderlich!"
 
-#: lib/modules/sv_human_time/sv_human_time.php:89
+#: lib/modules/sv_human_time/sv_human_time.php:79
 #, php-format
 msgid "%s ago"
 msgstr "vor %s"
 
-#: lib/modules/sv_lightbox/sv_lightbox.php:17
+#: lib/modules/sv_lightbox/sv_lightbox.php:7
 msgid "Lightbox"
 msgstr "Lightbox"
 
-#: lib/modules/sv_lightbox/sv_lightbox.php:18
+#: lib/modules/sv_lightbox/sv_lightbox.php:8
 msgid "Manage Lightbox"
 msgstr "Lightbox verwalten"
 
-#: lib/modules/sv_lightbox/sv_lightbox.php:26
+#: lib/modules/sv_lightbox/sv_lightbox.php:16
 msgid "Enable Lightbox"
 msgstr "Lightbox aktivieren"
 
-#: lib/modules/sv_lightbox/sv_lightbox.php:27
+#: lib/modules/sv_lightbox/sv_lightbox.php:17
 msgid "Links to Images will be opened in a Lightbox"
 msgstr "Links zu Bildern werden in einer Lightbox geöffnet"
 
-#: lib/modules/sv_maintenance/sv_maintenance.php:17
+#: lib/modules/sv_maintenance/sv_maintenance.php:7
 msgid "Maintenance"
 msgstr "Wartung"
 
-#: lib/modules/sv_maintenance/sv_maintenance.php:18
+#: lib/modules/sv_maintenance/sv_maintenance.php:8
 msgid "Improve Maintenance"
 msgstr "Verbesserung der Wartung"
 
-#: lib/modules/sv_maintenance/sv_maintenance.php:29
+#: lib/modules/sv_maintenance/sv_maintenance.php:19
 msgid ""
 "SV100 Companion Notice: Recovery Mode Email could not have been set, as it "
 "was already set before."
@@ -965,78 +838,94 @@ msgstr ""
 "SV100 Companion Hinweis: Der Wiederherstellungsmodus E-Mail konnte nicht "
 "eingestellt werden, da er bereits zuvor eingestellt war."
 
-#: lib/modules/sv_maintenance/sv_maintenance.php:35
+#: lib/modules/sv_maintenance/sv_maintenance.php:25
 msgid "Recovery Mode Email"
 msgstr "E-Mail im Wiederherstellungsmodus"
 
-#: lib/modules/sv_maintenance/sv_maintenance.php:36
+#: lib/modules/sv_maintenance/sv_maintenance.php:26
 msgid "Maintenance E-Mails will be send to this address."
 msgstr "An diese Adresse werden Wartungs-E-Mails gesendet."
 
-#: lib/modules/sv_planet_charts/sv_planet_charts.php:17
+#: lib/modules/sv_planet_charts/sv_planet_charts.php:7
 msgid "Planet Charts"
 msgstr "Planet Charts"
 
-#: lib/modules/sv_planet_charts/sv_planet_charts.php:18
+#: lib/modules/sv_planet_charts/sv_planet_charts.php:8
 msgid "Tweaks for Planet Charts"
 msgstr "Optimierungen für Planetendiagramme"
 
-#: lib/modules/sv_scroll_to_top/lib/backend/tpl/settings.php:6
+#: lib/modules/sv_scroll_to_top/lib/tpl/settings/general.php:4
 msgid "Icon & Sizes"
 msgstr "Icon & Größen"
 
-#: lib/modules/sv_scroll_to_top/lib/backend/tpl/settings.php:16
-msgid "Colors"
-msgstr "Farben"
-
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:18
-msgid "Scroll To Top"
-msgstr "Nach Oben Scrollen"
-
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:39
-msgid "Activate Scroll To Top Button"
-msgstr "Schaltfläche \"Nach oben scrollen\" aktivieren"
-
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:44
+#: lib/modules/sv_scroll_to_top/lib/tpl/settings/general.php:13
 msgid "Position"
 msgstr "Position"
 
+#: lib/modules/sv_scroll_to_top/lib/tpl/settings/general.php:22
+msgid "Colors"
+msgstr "Farben"
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:6
+msgid "Scroll To Top"
+msgstr "Nach Oben Scrollen"
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:24
+msgid "Activate Scroll To Top Button"
+msgstr "Schaltfläche \"Nach oben scrollen\" aktivieren"
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:29
+msgid "Top"
+msgstr "Oben"
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:35
+msgid "Right"
+msgstr "Rechts"
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:41
+msgid "Bottom"
+msgstr "Unten"
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:47
+msgid "Left"
+msgstr "Links"
+
 #: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:53
 msgid "Icon embed code"
-msgstr "Symbol-Einbettungscode"
+msgstr "Icon Einbettungscode"
 
 #: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:54
 msgid "Here you can post the SVG embed code."
 msgstr "Hier kannst du den SVG-Einbett-Code speichern."
 
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:59
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:60
 msgid "Background color"
 msgstr "Hintergrundfarbe"
 
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:64
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:66
 msgid "Background color (Hover/Focus)"
 msgstr "Hintergrundfarbe (Hover/Fokus)"
 
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:69
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:72
+msgid "Box size"
+msgstr "Größe der Box"
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:73
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:80
+msgid "Size in px."
+msgstr "Größe in px."
+
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:79
 msgid "Icon size"
 msgstr "Icongröße"
 
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:70
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:78
-msgid "Size in %."
-msgstr "Größe in %."
-
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:77
-msgid "Icon size (Hover/Focus)"
-msgstr "Symbolgröße (Hover/Fokus)"
-
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:85
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:86
 msgid "Icon color"
 msgstr "Icon Farbe"
 
-#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:90
+#: lib/modules/sv_scroll_to_top/sv_scroll_to_top.php:92
 msgid "Icon color (Hover/Focus)"
-msgstr "Symbolfarbe (Hover/Fokus)"
+msgstr "Iconfarbe (Hover/Fokus)"
 
 #: lib/modules/sv_settings/lib/backend/tpl/tools.php:11
 #: lib/modules/sv_settings/lib/backend/tpl/tools.php:86
@@ -1079,48 +968,48 @@ msgstr "In die Zwischenablage kopieren"
 msgid "Reset to factory settings"
 msgstr "Zurücksetzen auf Werkseinstellungen"
 
-#: lib/modules/sv_settings/sv_settings.php:17
+#: lib/modules/sv_settings/sv_settings.php:7
 msgid "SV Settings Import/Export"
 msgstr "SV-Einstellungen Import/Export"
 
-#: lib/modules/sv_settings/sv_settings.php:18
+#: lib/modules/sv_settings/sv_settings.php:8
 msgid "Import and export settings from SV theme and plugins"
 msgstr ""
 "Importieren und Exportieren von Einstellungen aus SV-Themes und Plugins"
 
-#: lib/modules/sv_settings/sv_settings.php:50
+#: lib/modules/sv_settings/sv_settings.php:40
 msgid "Successfully reseted all settings."
 msgstr "Alle Einstellungen wurden erfolgreich zurückgesetzt."
 
-#: lib/modules/sv_settings/sv_settings.php:65
+#: lib/modules/sv_settings/sv_settings.php:55
 msgid "Settings JSON corrupt"
 msgstr "Einstellungen JSON beschädigt"
 
-#: lib/modules/sv_settings/sv_settings.php:78
+#: lib/modules/sv_settings/sv_settings.php:68
 msgid "Settings imported."
 msgstr "Einstellungen importiert."
 
-#: lib/modules/sv_smooth_scrolling/sv_smooth_scrolling.php:18
+#: lib/modules/sv_smooth_scrolling/sv_smooth_scrolling.php:8
 msgid "Smooth Scrolling"
 msgstr "Weiches Scrollen"
 
-#: lib/modules/sv_smooth_scrolling/sv_smooth_scrolling.php:19
+#: lib/modules/sv_smooth_scrolling/sv_smooth_scrolling.php:9
 msgid "Slide to Anker"
 msgstr "Slide to Anker"
 
-#: lib/modules/sv_smooth_scrolling/sv_smooth_scrolling.php:37
+#: lib/modules/sv_smooth_scrolling/sv_smooth_scrolling.php:33
 msgid "Activate"
 msgstr "Aktivieren"
 
-#: lib/modules/sv_smooth_scrolling/sv_smooth_scrolling.php:38
+#: lib/modules/sv_smooth_scrolling/sv_smooth_scrolling.php:34
 msgid "Activate Smooth Scrolling."
 msgstr "Aktivieren Sie Smooth Scrolling."
 
-#: lib/modules/sv_svg_support/sv_svg_support.php:17
+#: lib/modules/sv_svg_support/sv_svg_support.php:7
 msgid "SVG Support"
 msgstr "SVG-Unterstützung"
 
-#: lib/modules/sv_svg_support/sv_svg_support.php:18
+#: lib/modules/sv_svg_support/sv_svg_support.php:8
 #, php-format
 msgid ""
 "This module loads styles of plugin %sSVG Support%s inline to improve "
@@ -1129,43 +1018,65 @@ msgstr ""
 "Dieses Modul lädt Plugin-Stile %sSVG Support%s inline, um die "
 "Seitengeschwindigkeit zu verbessern."
 
-#: lib/modules/sv_svg_support/sv_svg_support.php:50
+#: lib/modules/sv_svg_support/sv_svg_support.php:40
 msgid "Load Styles inline."
 msgstr "Laden Sie Stile inline."
+
+#: lib/modules/sv_widgets_editor_screen/sv_widgets_editor_screen.php:8
+msgid "Widgets Editor Screen"
+msgstr "Bildschirm \"Widgets-Editor\""
+
+#: lib/modules/sv_widgets_editor_screen/sv_widgets_editor_screen.php:9
+msgid "Widget Area Enhancements"
+msgstr "Verbesserungen des Widget-Bereichs"
+
+#: lib/modules/sv_widgets_editor_screen/sv_widgets_editor_screen.php:26
+msgid "Edit Screen Max Width"
+msgstr "Maximale Bildschirmbreite bearbeiten"
+
+#: lib/modules/sv_widgets_editor_screen/sv_widgets_editor_screen.php:27
+msgid "Enable easier editing of complex layouts with a wider edit screen."
+msgstr ""
+"Erleichter die Bearbeitung komplexer Layouts mit einem breiteren "
+"Bearbeitungsbildschirm."
 
 #: lib/modules/sv_woocommerce/sv_woocommerce.php:7
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
+#: lib/modules/sv_woocommerce/sv_woocommerce.php:8
+msgid "Tweaks"
+msgstr "Optimierungen"
+
 #: lib/modules/sv_woocommerce/sv_woocommerce.php:20
 msgid "Load Assets on demand"
 msgstr "Assets bei Bedarf laden"
 
-#: lib/modules/sv_wp_rocket/sv_wp_rocket.php:17
+#: lib/modules/sv_wp_rocket/sv_wp_rocket.php:7
 msgid "WP Rocket"
 msgstr "WP Rocket"
 
-#: lib/modules/sv_wp_rocket/sv_wp_rocket.php:18
+#: lib/modules/sv_wp_rocket/sv_wp_rocket.php:8
 msgid "Tweaks for WP Rocket"
 msgstr "Optimierungen für WP Rocket"
 
-#: lib/modules/sv_wp_rocket/sv_wp_rocket.php:37
+#: lib/modules/sv_wp_rocket/sv_wp_rocket.php:27
 msgid "Adjust Threshold for Lazy Loading"
 msgstr "Schwellenwert für Lazy Loading anpassen"
 
-#: lib/modules/sv_wp_rocket/sv_wp_rocket.php:42
+#: lib/modules/sv_wp_rocket/sv_wp_rocket.php:32
 msgid "Activate lazyloading for HTML5 video elements"
 msgstr "Lazyloading für HTML5-Videoelemente aktivieren"
 
-#: lib/modules/sv_yoast_seo/sv_yoast_seo.php:17
+#: lib/modules/sv_yoast_seo/sv_yoast_seo.php:7
 msgid "Yoast SEO"
-msgstr ""
+msgstr "Yoast SEO"
 
-#: lib/modules/sv_yoast_seo/sv_yoast_seo.php:18
+#: lib/modules/sv_yoast_seo/sv_yoast_seo.php:8
 msgid "Tweaks for Yoast SEO"
 msgstr "Optimierungen für Yoast SEO"
 
-#: lib/modules/sv_yoast_seo/sv_yoast_seo.php:30
+#: lib/modules/sv_yoast_seo/sv_yoast_seo.php:20
 msgid "Display FAQ Block as Accordion"
 msgstr "Zeige FAQ Block als Akkordeon"
 
@@ -1174,8 +1085,9 @@ msgid "SV100 Companion"
 msgstr "SV100 Companion"
 
 #. Plugin URI of the plugin/theme
-msgid "https://straightvisions.com/"
-msgstr "https://straightvisions.com/"
+#. Author URI of the plugin/theme
+msgid "https://straightvisions.com"
+msgstr "https://straightvisions.com"
 
 #. Description of the plugin/theme
 msgid ""
@@ -1185,9 +1097,104 @@ msgstr ""
 "Dieses Plugin erhöht Ihre PageSpeed noch weiter. Es ist darauf optimiert, um "
 "gut mit unserem SV100 Theme zusammenzuarbeiten."
 
-#. Author URI of the plugin/theme
-msgid "https://straightvisions.com"
-msgstr "https://straightvisions.com"
+#~ msgid "Icon size (Hover/Focus)"
+#~ msgstr "Icongröße (Hover/Fokus)"
+
+#~ msgid "Size in %."
+#~ msgstr "Größe in %."
+
+#~ msgid "Empty"
+#~ msgstr "Leer"
+
+#~ msgid "Header"
+#~ msgstr "Kopfbereich"
+
+#~ msgid "Footer"
+#~ msgstr "Fußzeile"
+
+#~ msgid "Sidebar Top"
+#~ msgstr "Seitenleiste Oben"
+
+#~ msgid "Sidebar Right"
+#~ msgstr "Sidebar rechts"
+
+#~ msgid "Sidebar Left"
+#~ msgstr "Sidebar links"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Excerpt"
+#~ msgstr "Auszug"
+
+#~ msgid "Read More"
+#~ msgstr "Weiterlesen"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Date Modified"
+#~ msgstr "Datum letzte Bearbeitung"
+
+#~ msgid "Categories"
+#~ msgstr "Kategorien"
+
+#~ msgid "Extra Styles"
+#~ msgstr "Extra Styles"
+
+#~ msgid "Style Label"
+#~ msgstr "Beschriftung"
+
+#~ msgid "A label to differentiate your Styles."
+#~ msgstr "Eine Beschriftung, um deine Styles zu unterscheiden."
+
+#~ msgid "Label"
+#~ msgstr "Beschriftung"
+
+#~ msgid "Slug"
+#~ msgstr "Slug"
+
+#~ msgid "This slug is used for the helper classes."
+#~ msgstr "Dieser Slug wird für die Helferklassen verwendet."
+
+#~ msgid "Order by"
+#~ msgstr "Sortieren nach"
+
+#~ msgid "Order"
+#~ msgstr "Sortierung"
+
+#~ msgid "Descending"
+#~ msgstr "Absteigend"
+
+#~ msgid "Ascending"
+#~ msgstr "Aufsteigend"
+
+#~ msgid "Template Style"
+#~ msgstr "Vorlagen Style"
+
+#~ msgid "Page"
+#~ msgstr "Seite"
+
+#~ msgid "--- Default Archive Index ---"
+#~ msgstr "--- Standardarchivindex ---"
+
+#~ msgid "Footer Credits"
+#~ msgstr "Fußzeilen Credits"
+
+#~ msgid "Adjust Footer Credit Settings for SV100 Theme"
+#~ msgstr "Einstellen der Fußzeilencredits für das SV100 Theme"
+
+#~ msgid "Disable credits footer at all."
+#~ msgstr "Fußzeilencredits komplett deaktivieren."
+
+#~ msgid "Set your own text for credits."
+#~ msgstr "Eigenen Text für Credits festlegen."
+
+#~ msgid "https://straightvisions.com/"
+#~ msgstr "https://straightvisions.com/"
 
 #~ msgid "Gutenslider"
 #~ msgstr "Gutenslider"
