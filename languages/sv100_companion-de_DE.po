@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SV100 Companion\n"
-"POT-Creation-Date: 2023-02-03 12:24+0100\n"
-"PO-Revision-Date: 2023-02-03 12:24+0100\n"
+"POT-Creation-Date: 2023-02-10 13:48+0100\n"
+"PO-Revision-Date: 2023-02-10 13:48+0100\n"
 "Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
 "Language-Team: Matthias Reuter <info@straightvisions.com>\n"
 "Language: de_DE\n"
@@ -393,6 +393,7 @@ msgid "Attached"
 msgstr "Angehängt"
 
 #: lib/core_plugin/core/scripts/scripts.php:240
+#: lib/modules/sv_woocommerce/sv_woocommerce.php:24
 msgid "Default"
 msgstr "Standard"
 
@@ -435,12 +436,8 @@ msgid "characters."
 msgstr "Zeichen."
 
 #: lib/core_plugin/core/settings/settings.php:620
-msgid "Save (classic)"
-msgstr "Speichern (klassisch)"
-
-#: lib/core_plugin/core/settings/settings.php:620
-msgid "Save (AJAX)"
-msgstr "Speichern (AJAX)"
+msgid "Save"
+msgstr "Speichern"
 
 #: lib/core_plugin/core/settings/settings.php:777
 #: lib/core_plugin/core/settings/settings.php:820
@@ -1048,9 +1045,17 @@ msgstr "WooCommerce"
 msgid "Tweaks"
 msgstr "Optimierungen"
 
-#: lib/modules/sv_woocommerce/sv_woocommerce.php:20
-msgid "Load Assets on demand"
-msgstr "Assets bei Bedarf laden"
+#: lib/modules/sv_woocommerce/sv_woocommerce.php:22
+msgid "Scripts & Styles Loading"
+msgstr "Laden von Skripten und Stilen"
+
+#: lib/modules/sv_woocommerce/sv_woocommerce.php:25
+msgid "load on demand"
+msgstr "laden, wenn benötigt"
+
+#: lib/modules/sv_woocommerce/sv_woocommerce.php:26
+msgid "load nothing"
+msgstr "Nichts laden"
 
 #: lib/modules/sv_wp_rocket/sv_wp_rocket.php:7
 msgid "WP Rocket"
@@ -1096,6 +1101,12 @@ msgid ""
 msgstr ""
 "Dieses Plugin erhöht Ihre PageSpeed noch weiter. Es ist darauf optimiert, um "
 "gut mit unserem SV100 Theme zusammenzuarbeiten."
+
+#~ msgid "Save (classic)"
+#~ msgstr "Speichern (klassisch)"
+
+#~ msgid "Save (AJAX)"
+#~ msgstr "Speichern (AJAX)"
 
 #~ msgid "Icon size (Hover/Focus)"
 #~ msgstr "Icongröße (Hover/Fokus)"
