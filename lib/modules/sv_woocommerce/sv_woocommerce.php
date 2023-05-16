@@ -17,7 +17,6 @@
 			}
 		}
 		public function load_settings(): sv_woocommerce{
-			//
 			$this->get_setting('asset_loading')
 				->set_title( __( 'Scripts & Styles Loading', 'sv100_companion' ) )
 				->set_options(array(
@@ -26,6 +25,14 @@
 					'none'      => __( 'load nothing', 'sv100_companion' ),
 				))
 				->load_type( 'select' );
+
+			$this->get_setting('asset_loading_bypass_cart')
+			     ->set_title( __( 'Cart Page: Bypass Loading Setting', 'sv100_companion' ) )
+			     ->load_type( 'checkbox' );
+
+			$this->get_setting('asset_loading_bypass_checkout')
+			     ->set_title( __( 'Checkout Page: Bypass Loading Setting', 'sv100_companion' ) )
+			     ->load_type( 'checkbox' );
 
 			return $this;
 		}
@@ -44,6 +51,14 @@
 				return $this;
 			}
 
+			if(function_exists('is_cart') && is_cart() && $this->get_setting('asset_loading_bypass_cart')->get_data()){
+				return $this;
+			}
+
+			if(function_exists('is_checkout') && is_checkout() && $this->get_setting('asset_loading_bypass_checkout')->get_data()){
+				return $this;
+			}
+
 			// Otherwise...
 			remove_action('wp_enqueue_scripts', array(\WC_Frontend_Scripts::class, 'load_scripts'));
 			remove_action('wp_print_scripts', array(\WC_Frontend_Scripts::class, 'localize_printed_scripts'), 5);
@@ -55,6 +70,14 @@
 		}
 		public function frontend(): sv_woocommerce {
 			if(is_admin()){
+				return $this;
+			}
+
+			if(function_exists('is_cart') && is_cart() && $this->get_setting('asset_loading_bypass_cart')->get_data()){
+				return $this;
+			}
+
+			if(function_exists('is_checkout') && is_checkout() && $this->get_setting('asset_loading_bypass_checkout')->get_data()){
 				return $this;
 			}
 
