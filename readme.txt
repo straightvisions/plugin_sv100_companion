@@ -90,6 +90,9 @@ Each feature can be activated individually and is only loaded when needed. We re
 = <a href="https://wordpress.org/plugins/wordpress-seo/">Yoast SEO</a> =
 * Display FAQ Block as Accordion
 
+= <a href="https://wordpress.org/plugins/seo-by-rank-math/">Rank Math SEO</a> =
+* Display FAQ Block as Accordion
+
 == Team ==
 
 * Developed and maintenanced by <a href="https://straightvisions.com">straightvisions GmbH</a>
@@ -103,6 +106,10 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 3. You are using a caching plugin? Don't forget to flush caches now.
 
 == Changelog ==
+
+= 2.0.01 =
+* update core
+* Feature added: Rankmath SEO FAQ Block: Accordion Feature
 
 = 2.0.00 =
 * update core
@@ -215,7 +222,7 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 Initial Release
 
 == Upgrade Notice ==
-update core, Feature added: Set a fallback featured image
+update core, Feature added: Rankmath SEO FAQ Block: Accordion Feature
 
 == Missing a feature? ==
 
