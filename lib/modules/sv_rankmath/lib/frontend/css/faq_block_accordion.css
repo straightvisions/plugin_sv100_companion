@@ -6,10 +6,41 @@
 	height: 0;
 	overflow: hidden;
 	opacity: 0;
+	display: flex;
+	flex-direction: column;
 }
+@media (min-width: 1024px){
+	#rank-math-faq .rank-math-answer {
+		display:block;
+	}
+}
+#rank-math-faq picture, #rank-math-faq img{
+	order:10000;
+}
+#rank-math-faq picture.alignright, #rank-math-faq img.alignright{
+	margin-left:0;
+	float:none;
+}
+@media (min-width: 1024px){
+	#rank-math-faq picture.alignright, #rank-math-faq img.alignright{
+		margin-left: var(--wp--custom--sv-spacing);
+		float:right;
+	}
+}
+#rank-math-faq img{
+	object-fit: contain;
+	width: 100%;
+	height: fit-content;
+}
+@media (min-width: 1024px){
+	#rank-math-faq img{
+		width: initial;
+	}
+}
+
 #rank-math-faq .rank-math-list-item[aria-expanded="true"] .rank-math-answer {
 	max-height:100%;
-	overflow: visible;
+	overflow: auto;
 	transform: scaleY(1);
 	height: 100%;
 	opacity: 1;
