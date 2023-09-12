@@ -2,7 +2,7 @@
 	max-height:0;
 	transform: scaleY(0);
 	transform-origin: top;
-	transition: opacity 0.25s ease;
+	transition: transform 0.25s ease;
 	height: 0;
 	overflow: hidden;
 	opacity: 0;
@@ -45,6 +45,7 @@
 	display: flex;
 	cursor: pointer;
 	justify-content:space-between;
+	user-select: none;
 }
 #rank-math-faq .rank-math-question:after{
 	content: '';
