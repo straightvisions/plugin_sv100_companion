@@ -1,3 +1,6 @@
+#rank-math-faq{
+	user-select: none;
+}
 #rank-math-faq .rank-math-answer {
 	max-height:0;
 	transform: scaleY(0);
@@ -45,7 +48,6 @@
 	display: flex;
 	cursor: pointer;
 	justify-content:space-between;
-	user-select: none;
 }
 #rank-math-faq .rank-math-question:after{
 	content: '';

@@ -1,3 +1,6 @@
+.wp-block-yoast-faq-block{
+	user-select: none;
+}
 .wp-block-yoast-faq-block .schema-faq-answer{
 	max-height:0;
 	transform: scaleY(0);
