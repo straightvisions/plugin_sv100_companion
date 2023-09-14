@@ -1,6 +1,9 @@
 .wp-block-yoast-faq-block{
 	user-select: none;
 }
+.wp-block-yoast-faq-block .schema-faq-section {
+	padding: var(--wp--custom--sv-spacing) 0;
+}
 .wp-block-yoast-faq-block .schema-faq-answer{
 	max-height:0;
 	transform: scaleY(0);
@@ -9,6 +12,9 @@
 	height: 0;
 	overflow: hidden;
 	opacity: 0;
+}
+.wp-block-yoast-faq-block .schema-faq-section .schema-faq-answer{
+	margin:0;
 }
 .wp-block-yoast-faq-block .schema-faq-section[aria-expanded="true"] .schema-faq-answer{
 	max-height:100%;
