@@ -20,5 +20,6 @@
 			$this->load_module('sv_widgets_editor_screen');
 			$this->load_module('sv_featured_image');
 			$this->load_module('sv_rankmath');
+			$this->load_module('security');
 		}
 	}

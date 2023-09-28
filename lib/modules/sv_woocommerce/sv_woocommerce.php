@@ -4,8 +4,8 @@
 	class sv_woocommerce extends modules {
 		public function init() {
 			// Module Info
-			$this->set_section_title( __('WooCommerce','sv100_companion') );
-			$this->set_section_desc( __('Tweaks', 'sv100_companion') )
+			$this->set_section_title( __('WooCommerce','sv100_companion') )
+				->set_section_desc( __('Tweaks', 'sv100_companion') )
 				->set_section_type( 'settings' )
 				->load_settings()
 				->get_root()->add_section($this);

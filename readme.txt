@@ -110,6 +110,7 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 = 2.0.01 =
 * update core
 * Feature added: Rankmath SEO FAQ Block: Accordion Feature
+* Feature added: Disable Rest Users Endpoint
 
 = 2.0.00 =
 * update core
@@ -222,7 +223,7 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 Initial Release
 
 == Upgrade Notice ==
-update core, Feature added: Rankmath SEO FAQ Block: Accordion Feature
+update core, Features added: Rankmath SEO FAQ Block: Accordion Feature, Disable Rest Users Endpoint
 
 == Missing a feature? ==
 
