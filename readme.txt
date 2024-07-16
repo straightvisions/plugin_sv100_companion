@@ -4,14 +4,20 @@ Donate link: https://straightvisions.com
 Tags: sv100, pagespeed, seo, companion-plugin, sv100
 Requires PHP: 8.0
 Requires at least: 6.0
-Tested up to: 6.2.2
-Stable tag: 2.0.00
+Tested up to: 6.5.5
+Stable tag: 2.0.01
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
 This Plugin increases your PageSpeed even further. It is optimized to work well with our SV100 Theme.
 
 == Description ==
+
+= Requires: =
+* PHP 7.3 or higher
+* WordPress 5.3.x or higher
+
+= Plugin Description =
 
 We do not like multipurpose plugins. However, as a WordPress agency, we regularly develop little helpers that noticeably relieve our everyday life, but would be too small on their own to justify their own plugin.
 
@@ -84,6 +90,9 @@ Each feature can be activated individually and is only loaded when needed. We re
 = <a href="https://wordpress.org/plugins/wordpress-seo/">Yoast SEO</a> =
 * Display FAQ Block as Accordion
 
+= <a href="https://wordpress.org/plugins/seo-by-rank-math/">Rank Math SEO</a> =
+* Display FAQ Block as Accordion
+
 == Team ==
 
 * Developed and maintenanced by <a href="https://straightvisions.com">straightvisions GmbH</a>
@@ -97,6 +106,11 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 3. You are using a caching plugin? Don't forget to flush caches now.
 
 == Changelog ==
+
+= 2.0.01 =
+* update core
+* Feature added: Rankmath SEO FAQ Block: Accordion Feature
+* Feature added: Disable Rest Users Endpoint
 
 = 2.0.00 =
 * update core
@@ -209,7 +223,7 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 Initial Release
 
 == Upgrade Notice ==
-update core, Feature added: Set a fallback featured image
+update core, Features added: Rankmath SEO FAQ Block: Accordion Feature, Disable Rest Users Endpoint
 
 == Missing a feature? ==
 

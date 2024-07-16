@@ -1,10 +1,7 @@
-.wp-block-yoast-faq-block{
+#rank-math-faq{
 	user-select: none;
 }
-.wp-block-yoast-faq-block .schema-faq-section {
-	padding: var(--wp--custom--sv-spacing) 0;
-}
-.wp-block-yoast-faq-block .schema-faq-answer{
+#rank-math-faq .rank-math-answer {
 	max-height:0;
 	transform: scaleY(0);
 	transform-origin: top;
@@ -12,25 +9,47 @@
 	height: 0;
 	overflow: hidden;
 	opacity: 0;
+	display: flex;
+	flex-direction: column;
 }
-.wp-block-yoast-faq-block .schema-faq-section .schema-faq-answer{
-	margin:0;
+@media (min-width: 1024px){
+	#rank-math-faq .rank-math-answer {
+		display:block;
+	}
 }
-.wp-block-yoast-faq-block .schema-faq-section[aria-expanded="true"] .schema-faq-answer{
-	max-height:100%;
-	overflow: visible;
+#rank-math-faq picture, #rank-math-faq img{
+	order:10000;
+}
+#rank-math-faq picture.alignright, #rank-math-faq img.alignright{
+	margin-left:0;
+	float:none;
+}
+@media (min-width: 1024px){
+	#rank-math-faq picture.alignright, #rank-math-faq img.alignright{
+		margin-left: var(--wp--custom--sv-spacing);
+		float:right;
+		max-width:50%;
+	}
+}
+#rank-math-faq img{
+	object-fit: contain;
+	width: 100%;
+	height: fit-content;
+}
 
+#rank-math-faq .rank-math-list-item[aria-expanded="true"] .rank-math-answer {
+	max-height:100%;
+	overflow: auto;
 	transform: scaleY(1);
 	height: 100%;
 	opacity: 1;
 }
-.wp-block-yoast-faq-block .schema-faq-question {
+#rank-math-faq .rank-math-question {
 	display: flex;
 	cursor: pointer;
 	justify-content:space-between;
-	user-select: none;
 }
-.wp-block-yoast-faq-block .schema-faq-question:after{
+#rank-math-faq .rank-math-question:after{
 	content: '';
 	display: block;
 	height: 20px;
@@ -42,6 +61,6 @@
 	-webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE1IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEuNSAxTDcuNSA3TDEzLjUgMSIgc3Ryb2tlPSIjMEUzRjMxIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==);
 	background-color: currentColor;
 }
-.wp-block-yoast-faq-block .schema-faq-section[aria-expanded="true"] .schema-faq-question:after {
+#rank-math-faq .rank-math-list-item[aria-expanded="true"] .rank-math-question:after {
 	-webkit-transform: rotate(180deg);
 }
