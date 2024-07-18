@@ -5,7 +5,7 @@ Tags: sv100, pagespeed, seo, companion-plugin, sv100
 Requires PHP: 8.0
 Requires at least: 6.0
 Tested up to: 6.5.5
-Stable tag: 2.0.01
+Stable tag: 2.0.02
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -106,6 +106,9 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 3. You are using a caching plugin? Don't forget to flush caches now.
 
 == Changelog ==
+
+= 2.0.02 =
+* update core
 
 = 2.0.01 =
 * update core
@@ -223,7 +226,7 @@ This plugin is build to work out-of-the-box. Installation is quite simple.
 Initial Release
 
 == Upgrade Notice ==
-update core, Features added: Rankmath SEO FAQ Block: Accordion Feature, Disable Rest Users Endpoint
+update core
 
 == Missing a feature? ==
 
