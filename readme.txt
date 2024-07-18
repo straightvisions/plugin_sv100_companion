@@ -11,12 +11,6 @@ License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
 This Plugin increases your PageSpeed even further. It is optimized to work well with our SV100 Theme.
 
-== Description ==
-
-= Requires: =
-* PHP 7.3 or higher
-* WordPress 5.3.x or higher
-
 = Plugin Description =
 
 We do not like multipurpose plugins. However, as a WordPress agency, we regularly develop little helpers that noticeably relieve our everyday life, but would be too small on their own to justify their own plugin.
