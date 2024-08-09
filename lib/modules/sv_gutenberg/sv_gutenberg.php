@@ -32,7 +32,7 @@
 			     ->load_type( 'checkbox' );
 
 			$this->get_setting( 'remove_core_block_patterns' )
-			     ->set_title( __( 'Remobe core block patterns', 'sv100_companion' ) )
+			     ->set_title( __( 'Remove core block patterns', 'sv100_companion' ) )
 			     ->set_description( __( 'This remove the core block patterns from the pattern window in the editor. Useful if you want to show only custom patterns.', 'sv100_companion' ) )
 			     ->load_type( 'checkbox' );
 
