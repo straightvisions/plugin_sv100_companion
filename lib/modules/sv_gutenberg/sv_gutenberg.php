@@ -14,6 +14,10 @@
 				$this->remove_wp_render_layout_support_flag();
 			}
 
+			if($this->get_setting( 'remove_core_block_patterns' )->get_data()){
+				$this->remove_core_block_patterns();
+			}
+
 			add_action('admin_init', function(){
 				if(is_admin() && $this->get_setting( 'show_link_manage_reusable_blocks' )->get_data()) {
 					add_menu_page( __( 'Reusable Blocks', 'sv100_companion' ), __( 'Reusable Blocks', 'sv100_companion' ),
@@ -27,8 +31,13 @@
 			     ->set_description( __( 'Show manage reusable blocks link in backend menu.', 'sv100_companion' ) )
 			     ->load_type( 'checkbox' );
 
+			$this->get_setting( 'remove_core_block_patterns' )
+			     ->set_title( __( 'Remobe core block patterns', 'sv100_companion' ) )
+			     ->set_description( __( 'This remove the core block patterns from the pattern window in the editor. Useful if you want to show only custom patterns.', 'sv100_companion' ) )
+			     ->load_type( 'checkbox' );
+
 			$this->get_setting( 'remove_wp_render_layout_support_flag' )
-			     ->set_title( __( 'Remove WP Render Layout Support Flag', 'sv100_companion' ) )
+			     ->set_title( __( 'Remove WP render layout support flag', 'sv100_companion' ) )
 			     ->set_description( __( 'Remove Custom Block CSS (.wp-containert-xxx)', 'sv100_companion' ) )
 			     ->load_type( 'checkbox' );
 			
@@ -39,6 +48,11 @@
 			remove_filter( 'render_block', 'wp_render_layout_support_flag', 10, 2 );
 			remove_filter( 'render_block', 'gutenberg_render_layout_support_flag', 10, 2 );
 
+			return $this;
+		}
+
+		public function remove_core_block_patterns(): sv_gutenberg{
+			remove_theme_support('core-block-patterns');
 			return $this;
 		}
 	}
